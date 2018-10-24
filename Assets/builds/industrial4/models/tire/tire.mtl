@@ -1,0 +1,12 @@
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tire.png
+map_bump tire_N.png
+bump tire_N.png
+

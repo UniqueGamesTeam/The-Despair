@@ -1,0 +1,112 @@
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0.15 0.15 0.15
+Ni 1.5
+Ns 150
+Tf 1 1 1
+d 1
+map_Kd pipe_d.bmp
+map_bump pipe_n.bmp
+bump pipe_n.bmp
+
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd pipe_d.bmp
+
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd pipe_d.bmp
+
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd pipe_d.bmp
+
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd pipe_d.bmp
+
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd pipe_d.bmp
+
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd pipe_d.bmp
+
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd pipe_d.bmp
+
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0.585 0.585 0.585
+Ni 1.5
+Ns 28
+Tf 1 1 1
+d 1
+map_Kd valves_d.bmp
+
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd pipe_d.bmp
+
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd pipe_d.bmp
+

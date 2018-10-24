@@ -1,0 +1,62 @@
+Indie End User License Agreement (EULA)
+YOU SHOULD CAREFULLY READ THE FOLLOWING TERMS AND CONDITIONS BEFORE USING THIS PRODUCT.
+THIS IS A LEGAL AGREEMENT BETWEEN YOU AND DEXSOFT-GAMES.COM.
+IF YOU DO NOT ACCEPT THESE TERMS AND CONDITIONS, YOU SHOULD NOT USE THIS PRODUCT.
+BY PURCHASING, DOWNLOADING, COPYING, OR OTHERWISE USING THE PRODUCT,
+YOU ACKNOWLEDGE THAT YOU HAVE READ THESE TERMS AND CONDITIONS, UNDERSTAND THEM, AND AGREE TO BE BOUND BY THEM.
+IF YOU DO NOT AGREE TO THESE TERMS AND CONDITIONS, YOU SHOULD NOT USE THIS PRODUCT.
+
+
+End User License Terms:
+1. LICENSE AGREEMENT
+This sets forth the entire agreement between DEXSOFT-GAMES, Inc. ("Licensor") and the Licensee relating to the use 
+of the content in hard media form or downloadable from the Licensor website, www.DEXSOFT-GAMES.com, or affiliates.
+
+2. LICENSE GRANT.
+Licensor grants Licensee a single "seat" to an individual, a limited non-exclusive, non-transferable license to use 
+the DEXSOFT-GAMES assets for the purposes of making an unlimited number of electronic single or multi-user game for entertainment ("Games"). 
+This product and all of its content is proprietary material of DEXSOFT-GAMES.COM
+(a) Licensee may publicly sell, distribute, release, publish, transmit and/or exploit any Games created with our assets.
+(b) With the exception of the platforms and their respective successors described in Section 3, Licensee may have the Games published in any 
+channel by any publisher with no royalties. 
+(c) This license permits the use of the assets for non-Game application such as simulations, virtual worlds, or other non-Game products,
+as long as assets are in protected form like dll or exe files. 
+
+
+3. RESTRICTIONS.
+The following restrictions apply to the use of this Assets:
+(a) This license is granted to individuals only, and cannot be owned by corporate or business entities.
+(b) Licensee may not use the Indie License if the annual revenue of the Company employing, partnering, or affiliated in any way with the 
+Licensee is greater than $250,000 USD annually. Those Companies which grow to greater than $250,000 USD annually are required to upgrade 
+to Commercial Product License for each seat of the assets being used immediately..
+(c) This product and all of the assets of this product including, but not limited to, all models, textures and any derivative works thereof, 
+may not be resold or re-distributed individually or as a package offering in any format outside of the project work of the initial purchaser 
+as described in section 1 without the prior written permission of DEXSOFT-GAMES.COM.
+(d) You MAY NOT modify models and sell them in model collections or individually.
+(e) You MAY NOT modify textures and sell them in texture collections or individually.
+(f) You MAY NOT use textures for models which will be sold like model collections or individually.
+
+
+4. FEES.
+(a) When Licensee pays fee when purchase assets that is final payment. There are no additional royalties. Licensee does not have to show the 
+Games made with our assets.
+(b) Licensor may use Licensee's name in connection with the Games and in any customer reference list or in any press release issued by Licensor 
+regarding the licensing of the assets.
+
+5. TERMINATION OF THIS LICENSE:
+DEXSOFT-GAMES.COM may terminate this license at any time if you are in breach of the terms and conditions of use.
+Upon such termination you agree to immediately destroy all copies of this product, any derivative works of the product 
+and all of its accompanying documentation.
+
+6. DISCLAIMER AND WARRANTY:
+DEXSOFT-GAMES.COM  provides the products related to this agreement "AS IS" without warranty, expressed or implied. 
+DEXSOFT-GAMES.COM is in noway responsible for the functionality or marketability of the product and the purchaser agrees to assume 
+total responsibility and risk in regards to the use of this product.
+
+7. CHOICE OF LAW:
+This agreement will be governed by the laws of the State of Washington, U.S.A., excluding its conflict of law provisions.
+Unless otherwise agreed in writing, all disputes relating to this Agreement shall be subject to final and binding arbitration 
+in Budapest, Hungary, with the loosing party paying all costs of arbitration.
+
+SUPPORT:
+If you have questions concerning this EULA please contact our support via e-mail: support@dexsoft-games.com

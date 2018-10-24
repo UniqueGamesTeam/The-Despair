@@ -1,0 +1,166 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5 5.0.3.1555 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl _5___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd CON_35.png
+map_bump con_35N.png
+bump con_35N.png
+map_opacity 
+map_d 
+refl 
+map_kS con_35S.png
+map_kA 
+map_Ns 
+
+newmtl _7___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd METAL05.png
+map_bump metal05n.png
+bump metal05n.png
+map_opacity 
+map_d 
+refl 
+map_kS metal05s.png
+map_kA 
+map_Ns 
+
+newmtl _6___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd BRICK30.png
+map_bump BRICK30N.png
+bump BRICK30N.png
+map_opacity 
+map_d 
+refl 
+map_kS BRICK30S.png
+map_kA 
+map_Ns 
+
+newmtl _4___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd M_1.png
+map_bump m_1N.png
+bump m_1N.png
+map_opacity 
+map_d 
+refl 
+map_kS m_1S.png
+map_kA 
+map_Ns 
+
+newmtl _3___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd CLOCK_1.png
+map_bump clock_1N.png
+bump clock_1N.png
+map_opacity 
+map_d 
+refl 
+map_kS clock_1S.png
+map_kA 
+map_Ns 
+
+newmtl _2___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd CLOCK.png
+map_bump clock_N.png
+bump clock_N.png
+map_opacity 
+map_d 
+refl 
+map_kS clock_S.png
+map_kA 
+map_Ns 
+
+newmtl _9___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd METALL_3.png
+map_bump metall_1.png
+bump metall_1.png
+map_opacity 
+map_d 
+refl 
+map_kS metall_2.png
+map_kA 
+map_Ns 
+
+newmtl _8___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd WOOD09.png
+map_bump wood09n.png
+bump wood09n.png
+map_opacity 
+map_d 
+refl 
+map_kS wood09s.png
+map_kA 
+map_Ns 
+
+newmtl _0___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd GITTER1.png
+map_bump gitter1N.png
+bump gitter1N.png
+map_opacity 
+map_d 
+refl 
+map_kS gitter1S.png
+map_kA 
+map_Ns 
+
+newmtl Explorer_Default
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 

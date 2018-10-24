@@ -1,0 +1,2 @@
+OgreXmlConverter.exe tank_2_lod1_mesh.xml tank_2_lod1.mesh
+OgreXmlConverter.exe tank_2_lod1_skeleton.xml tank_2_lod1.skeleton

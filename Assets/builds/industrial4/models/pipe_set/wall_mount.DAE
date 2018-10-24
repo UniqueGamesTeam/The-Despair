@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>Lightwave 9.5</authoring_tool>
+        </contributor>
+        <created>2009-04-19T22:07:42Z</created>
+        <modified>2009-04-19T22:07:42Z</modified>
+        <unit meter="1"></unit>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_animations></library_animations>
+    <library_cameras></library_cameras>
+    <library_lights></library_lights>
+    <library_images>
+        <image id="pipe_d" name="pipe_d">
+            <init_from>file:///D:/3d/3d-daten/3D/3D-Objekte/christian/industrial1_2483/industrial 2/industrial_content/industrial_content/pack2/pipe_set/pipe_d.bmp</init_from>
+        </image>
+        <image id="pipe_d_2" name="pipe_d_2">
+            <init_from>file:///D:/3d/3d-daten/3D/3D-Objekte/christian/industrial1_2483/industrial 2/industrial_content/industrial_content/pack2/pipe_set/pipe_d.bmp</init_from>
+        </image>
+    </library_images>
+    <library_materials>
+        <material id="01___Default_Smoothing" name="01___Default_Smoothing">
+            <instance_effect url="#01___Default_Smoothing-fx"></instance_effect>
+        </material>
+        <material id="01___Default" name="01___Default">
+            <instance_effect url="#01___Default-fx"></instance_effect>
+        </material>
+    </library_materials>
+    <library_effects>
+        <effect id="01___Default_Smoothing-fx">
+            <profile_COMMON>
+                <newparam sid="pipe_d_2-surface">
+                    <surface type="2D">
+                        <init_from>pipe_d_2</init_from>
+                        <format>A8R8G8B8</format>
+                    </surface>
+                </newparam>
+                <newparam sid="pipe_d_2-sampler">
+                    <sampler2D>
+                        <source>pipe_d_2-surface</source>
+                        <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+                        <magfilter>LINEAR</magfilter>
+                    </sampler2D>
+                </newparam>
+                <technique sid="common">
+                    <blinn>
+                        <diffuse>
+                            <texture texture="pipe_d_2-sampler" texcoord="TEX0"></texture>
+                        </diffuse>
+                    </blinn>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="01___Default-fx">
+            <profile_COMMON>
+                <newparam sid="pipe_d-surface">
+                    <surface type="2D">
+                        <init_from>pipe_d</init_from>
+                        <format>A8R8G8B8</format>
+                    </surface>
+                </newparam>
+                <newparam sid="pipe_d-sampler">
+                    <sampler2D>
+                        <source>pipe_d-surface</source>
+                        <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+                        <magfilter>LINEAR</magfilter>
+                    </sampler2D>
+                </newparam>
+                <technique sid="common">
+                    <blinn>
+                        <diffuse>
+                            <texture texture="pipe_d-sampler" texcoord="TEX0"></texture>
+                        </diffuse>
+                    </blinn>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_geometries>
+        <geometry id="Mesh_Object_lib" name="Mesh_Object">
+            <mesh>
+                <source id="Mesh_Object_positions" name="position">
+                    <float_array id="Mesh_Object_positions_array" count="96">-0.2124 -0.3415 -1.105 
+-0.2124 -0.2593 -1.105 
+-0.2124 -0.2593 1.2659 
+-0.2124 -0.3415 1.2659 
+-0.4093 -0.3415 -1.2659 
+-0.4093 -0.3415 -1.105 
+-0.4093 -0.2593 -1.105 
+-0.4093 -0.2593 -1.2659 
+-0.4093 -0.3415 1.2659 
+-0.4093 -0.2593 1.2659 
+-0.2124 -0.3415 -1.2659 
+-0.2465 0.3415 -1.105 
+-0.2465 0.3415 -1.2659 
+-0.3752 0.3415 -1.2659 
+-0.3752 0.3415 -1.105 
+-0.2124 -0.2593 -1.2659 
+0.2112 -0.2593 -1.2659 
+0.2112 -0.3415 -1.2659 
+0.2112 -0.2593 -1.105 
+0.2112 -0.3415 -1.105 
+0.4093 -0.3415 -1.2659 
+0.4093 -0.2593 -1.2659 
+0.4093 -0.2593 -1.105 
+0.4093 -0.3415 -1.105 
+0.4093 -0.2593 1.2659 
+0.4093 -0.3415 1.2659 
+0.2123 -0.3415 1.2659 
+0.2123 -0.2593 1.2659 
+0.3777 0.3415 -1.105 
+0.3777 0.3415 -1.2659 
+0.2439 0.3415 -1.2659 
+0.2439 0.3415 -1.105 
+</float_array>
+                    <technique_common>
+                        <accessor count="32" offset="0" source="#Mesh_Object_positions_array" stride="3">
+                            <param name="X" type="float"></param>
+                            <param name="Y" type="float"></param>
+                            <param name="Z" type="float"></param>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="wall_mount_uv_uvmap" name="uvmap">
+                    <float_array id="wall_mount_uv_uvmap_array" count="360">0.4796 0.9695 
+0.7987 0.9695 
+0.7987 0.9878 
+0.7987 0.9878 
+0.4796 0.9878 
+0.4796 0.9695 
+0.5012 0.9695 
+0.5012 0.9878 
+0.4796 0.9878 
+0.4796 0.9878 
+0.4796 0.9695 
+0.5012 0.9695 
+0.8204 0.9695 
+0.8204 0.9878 
+0.5012 0.9878 
+0.5012 0.9878 
+0.5012 0.9695 
+0.8204 0.9695 
+0.8365 0.9561 
+0.863 0.9561 
+0.863 0.9918 
+0.863 0.9918 
+0.8365 0.9918 
+0.8365 0.9561 
+1.0446 0.4617 
+1.0711 0.4617 
+1.0711 0.9883 
+1.0711 0.9883 
+1.0446 0.9883 
+1.0446 0.4617 
+0.5949 0.9695 
+0.6214 0.9695 
+0.6214 0.9878 
+0.6214 0.9878 
+0.5949 0.9878 
+0.5949 0.9695 
+1.649 0.9651 
+1.6225 0.9651 
+1.6225 0.4385 
+1.6225 0.4385 
+1.649 0.4385 
+1.649 0.9651 
+0.9421 0.9918 
+0.9248 0.9918 
+0.9248 0.9561 
+0.9248 0.9561 
+0.9421 0.9561 
+0.9421 0.9918 
+0.7051 0.9878 
+0.6785 0.9878 
+0.6785 0.9695 
+0.6785 0.9695 
+0.7051 0.9695 
+0.7051 0.9878 
+0.8204 0.8361 
+0.8204 0.9695 
+0.7987 0.9695 
+0.7987 0.9695 
+0.7987 0.8361 
+0.8204 0.8361 
+0.7005 0.8361 
+0.7051 0.9695 
+0.6785 0.9695 
+0.6785 0.9695 
+0.6831 0.8361 
+0.7005 0.8361 
+0.5012 0.8361 
+0.5012 0.9695 
+0.4796 0.9695 
+0.4796 0.9695 
+0.4796 0.8361 
+0.5012 0.8361 
+0.6168 0.8361 
+0.6214 0.9695 
+0.5949 0.9695 
+0.5949 0.9695 
+0.5995 0.8361 
+0.6168 0.8361 
+0.6215 0.9695 
+0.6785 0.9695 
+0.6785 0.9878 
+0.6785 0.9878 
+0.6215 0.9878 
+0.6215 0.9695 
+0.8632 0.9561 
+0.9202 0.9561 
+0.9202 0.9918 
+0.9202 0.9918 
+0.8632 0.9918 
+0.8632 0.9561 
+0.6784 0.9878 
+0.6214 0.9878 
+0.6214 0.9695 
+0.6214 0.9695 
+0.6784 0.9695 
+0.6784 0.9878 
+0.92 0.9918 
+0.863 0.9918 
+0.863 0.9561 
+0.863 0.9561 
+0.92 0.9561 
+0.92 0.9918 
+0.7987 0.9695 
+0.8204 0.9695 
+0.8204 0.9878 
+0.8204 0.9878 
+0.7987 0.9878 
+0.7987 0.9695 
+0.4796 0.9695 
+0.7987 0.9695 
+0.7987 0.9878 
+0.7987 0.9878 
+0.4796 0.9878 
+0.4796 0.9695 
+0.8204 0.9695 
+0.8204 0.9878 
+0.5012 0.9878 
+0.5012 0.9878 
+0.5012 0.9695 
+0.8204 0.9695 
+0.92 0.9561 
+0.9467 0.9561 
+0.9467 0.9918 
+0.9467 0.9918 
+0.92 0.9918 
+0.92 0.9561 
+1.6225 0.4385 
+1.649 0.4385 
+1.649 0.9651 
+1.649 0.9651 
+1.6223 0.9651 
+1.6225 0.4385 
+0.6785 0.9695 
+0.7051 0.9695 
+0.7051 0.9878 
+0.7051 0.9878 
+0.6785 0.9878 
+0.6785 0.9695 
+1.0713 0.9883 
+1.0446 0.9883 
+1.0446 0.4617 
+1.0446 0.4617 
+1.0711 0.4617 
+1.0713 0.9883 
+0.8588 0.9918 
+0.8408 0.9918 
+0.8408 0.9561 
+0.8408 0.9561 
+0.8588 0.9561 
+0.8588 0.9918 
+0.6215 0.9878 
+0.5949 0.9878 
+0.5949 0.9695 
+0.5949 0.9695 
+0.6215 0.9695 
+0.6215 0.9878 
+0.8204 0.8361 
+0.8204 0.9695 
+0.7987 0.9695 
+0.7987 0.9695 
+0.7987 0.8361 
+0.8204 0.8361 
+0.6171 0.8361 
+0.6215 0.9695 
+0.5949 0.9695 
+0.5949 0.9695 
+0.5991 0.8361 
+0.6171 0.8361 
+0.5012 0.8361 
+0.5012 0.9695 
+0.4796 0.9695 
+0.4796 0.9695 
+0.4796 0.8361 
+0.5012 0.8361 
+0.7008 0.8361 
+0.7051 0.9695 
+0.6784 0.9695 
+0.6784 0.9695 
+0.6828 0.8361 
+0.7008 0.8361 
+</float_array>
+                    <technique_common>
+                        <accessor count="180" offset="0" source="#wall_mount_uv_uvmap_array" stride="2">
+                            <param name="S" type="float"></param>
+                            <param name="T" type="float"></param>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="Mesh_Object_vertices">
+                    <input semantic="POSITION" source="#Mesh_Object_positions"></input>
+                </vertices>
+                <polylist count="60" material="01___Default">
+                    <input offset="0" semantic="VERTEX" source="#Mesh_Object_vertices"></input>
+                    <input offset="1" semantic="TEXCOORD" source="#wall_mount_uv_uvmap" set="0"></input>
+                    <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+                    <p>0 2 1 1 2 0 2 5 3 4 0 3 4 8 5 7 6 6 6 11 7 10 4 9 5 14 8 13 9 12 9 17 6 16 5 15 10 20 0 19 5 18 5 23 4 22 10 21 0 26 3 25 8 24 8 29 5 28 0 27 3 32 2 31 9 30 9 35 8 34 3 33 2 38 1 37 6 36 6 41 9 40 2 39 11 44 12 43 13 42 13 47 14 46 11 45 15 50 10 49 4 48 4 53 7 52 15 51 1 56 15 55 12 54 12 59 11 58 1 57 15 62 7 61 13 60 13 65 12 64 15 63 7 68 6 67 14 66 14 71 13 70 7 69 6 74 1 73 11 72 11 77 14 76 6 75 10 80 15 79 16 78 16 83 17 82 10 81 15 86 1 85 18 84 18 89 16 88 15 87 1 92 0 91 19 90 19 95 18 94 1 93 0 98 10 97 17 96 17 101 19 100 0 99 20 104 21 103 22 102 22 107 23 106 20 105 23 110 22 109 24 108 24 113 25 112 23 111 19 116 26 115 27 114 27 119 18 118 19 117 20 122 23 121 19 120 19 125 17 124 20 123 23 128 25 127 26 126 26 131 19 130 23 129 25 134 24 133 27 132 27 137 26 136 25 135 24 140 22 139 18 138 18 143 27 142 24 141 28 146 29 145 30 144 30 149 31 148 28 147 21 152 20 151 17 150 17 155 16 154 21 153 22 158 21 157 29 156 29 161 28 160 22 159 21 164 16 163 30 162 30 167 29 166 21 165 16 170 18 169 31 168 31 173 30 172 16 171 18 176 22 175 28 174 28 179 31 178 18 177 </p>
+                </polylist>
+                <polylist count="0" material="01___Default_Smoothing">
+                    <input offset="0" semantic="VERTEX" source="#Mesh_Object_vertices"></input>
+                    <input offset="1" semantic="TEXCOORD" source="#wall_mount_uv_uvmap" set="0"></input>
+                    <vcount></vcount>
+                    <p></p>
+                </polylist>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_controllers></library_controllers>
+    <library_visual_scenes>
+        <visual_scene id="VisualSceneNode" name="Scene">
+            <node id="Mesh_Object" name="Mesh_Object">
+                <instance_geometry url="#Mesh_Object_lib">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="01___Default" target="#01___Default">
+                                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"></bind_vertex_input>
+                            </instance_material>
+                            <instance_material symbol="01___Default_Smoothing" target="#01___Default_Smoothing">
+                                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"></bind_vertex_input>
+                            </instance_material>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#VisualSceneNode"></instance_visual_scene>
+    </scene>
+</COLLADA>

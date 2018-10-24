@@ -1,0 +1,2 @@
+OgreXmlConverter.exe arieals_2_lod1_mesh.xml arieals_2_lod1.mesh
+OgreXmlConverter.exe arieals_2_lod1_skeleton.xml arieals_2_lod1.skeleton

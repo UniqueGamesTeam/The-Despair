@@ -1,0 +1,130 @@
+newmtl 13___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m1_d.bmp
+
+newmtl 13___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m1_d.bmp
+
+newmtl 14___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m2_d.bmp
+
+newmtl 14___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m2_d.bmp
+
+newmtl 15___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m4_d.bmp
+
+newmtl 15___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m4_d.bmp
+
+newmtl 16___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m8_d.bmp
+
+newmtl 13___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m1_d.bmp
+
+newmtl 13___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m1_d.bmp
+
+newmtl 14___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m2_d.bmp
+
+newmtl 14___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m2_d.bmp
+
+newmtl 15___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m4_d.bmp
+
+newmtl 15___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m4_d.bmp
+

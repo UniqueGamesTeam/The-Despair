@@ -1,0 +1,2 @@
+OgreXmlConverter.exe building_10_mesh.xml building_10.mesh
+OgreXmlConverter.exe building_10_skeleton.xml building_10.skeleton

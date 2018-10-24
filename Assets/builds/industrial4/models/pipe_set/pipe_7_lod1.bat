@@ -1,0 +1,2 @@
+OgreXmlConverter.exe pipe_7_lod1_mesh.xml pipe_7_lod1.mesh
+OgreXmlConverter.exe pipe_7_lod1_skeleton.xml pipe_7_lod1.skeleton

@@ -1,0 +1,21 @@
+// Creator: Ultimate Unwrap3D Pro v3.15
+// Time: Mon Apr 20 20:26:09 2009
+
+material b4_lod2
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.200000 0.200000 0.200000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.200000 0.200000 0.200000 1.000000 20.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture b4_lod.tga
+         }
+      }
+   }
+}

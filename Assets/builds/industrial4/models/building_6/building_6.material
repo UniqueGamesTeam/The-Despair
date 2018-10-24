@@ -1,0 +1,111 @@
+// Creator: Ultimate Unwrap3D Pro v3.15
+// Time: Mon Apr 20 20:41:35 2009
+
+material steel_1
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.200000 0.200000 0.200000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.200000 0.200000 0.200000 1.000000 20.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture m2_d.bmp
+         }
+      }
+   }
+}
+material industrie_dach_1_Smoothing
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.200000 0.200000 0.200000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.200000 0.200000 0.200000 1.000000 20.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture plate1_d.bmp
+         }
+      }
+   }
+}
+material industrie_brick_1
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.200000 0.200000 0.200000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.200000 0.200000 0.200000 1.000000 20.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture brick_1d.bmp
+         }
+      }
+   }
+}
+material win_2_Smoothing
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.200000 0.200000 0.200000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.200000 0.200000 0.200000 1.000000 20.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture win1_d.bmp
+         }
+      }
+   }
+}
+material industrie_tor_1_Smoothing
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.200000 0.200000 0.200000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.200000 0.200000 0.200000 1.000000 20.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture door1_d.bmp
+         }
+      }
+   }
+}
+material steel_2_Smoothing
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.200000 0.200000 0.200000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.200000 0.200000 0.200000 1.000000 20.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture steel1_d.bmp
+         }
+      }
+   }
+}

@@ -1,0 +1,150 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5 5.0.3.1555 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl _7___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd METAL05.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl _5___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd CON_35.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl _6___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd BRICK30.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl _9___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd METALL_3.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl _8___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd WOOD09.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl _3___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd CLOCK_1.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl _2___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd CLOCK.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl _0___Default
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd GITTER1.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Explorer_Default
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 

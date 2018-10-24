@@ -1,0 +1,30 @@
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m4_d.bmp
+
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m4_d.bmp
+
+newmtl 02___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m5_d.bmp
+

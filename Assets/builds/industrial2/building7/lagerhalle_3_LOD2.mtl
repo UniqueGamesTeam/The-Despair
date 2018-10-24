@@ -1,0 +1,22 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5 5.0.3.1555 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl DefaultLib_Mater
+Ka 0.298039 0.298039 0.298039
+Kd 0.698039 0.698039 0.698039
+Ks 1 1 1
+illum 2
+Ns 48.5029
+map_Kd lager_3.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS lager_3S.png
+map_kA 
+map_Ns 

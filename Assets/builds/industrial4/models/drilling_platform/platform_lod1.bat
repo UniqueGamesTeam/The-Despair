@@ -1,0 +1,2 @@
+OgreXmlConverter.exe platform_lod1_mesh.xml platform_lod1.mesh
+OgreXmlConverter.exe platform_lod1_skeleton.xml platform_lod1.skeleton

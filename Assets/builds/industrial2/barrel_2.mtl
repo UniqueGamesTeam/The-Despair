@@ -1,0 +1,22 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5 5.0.3.1555 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl Tonne4
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 4
+map_Kd TONNE2.png
+map_bump TONNE2N.png
+bump TONNE2N.png
+map_opacity 
+map_d 
+refl 
+map_kS TONNE2S.png
+map_kA 
+map_Ns 

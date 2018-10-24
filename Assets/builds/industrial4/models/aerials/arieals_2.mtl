@@ -1,0 +1,43 @@
+newmtl 01___Default
+Ka 0 0 0
+Kd 0.0902 0.0941 0.1255
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+
+newmtl 02___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m8_d.bmp
+
+newmtl 02___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m8_d.bmp
+map_bump m8_n.bmp
+bump m8_n.bmp
+
+newmtl 07___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m4_d.bmp
+map_bump m4_n.bmp
+bump m4_n.bmp
+

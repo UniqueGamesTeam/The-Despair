@@ -1,0 +1,102 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5 5.0.3.1555 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl DefaultLib_Mater
+Ka 0.584314 0.584314 0.584314
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 48.5029
+map_Kd TRAIN_1.png
+map_bump TRAIN_1N.png
+bump TRAIN_1N.png
+map_opacity 
+map_d 
+refl 
+map_kS TRAIN_1S.png
+map_kA 
+map_Ns 
+
+newmtl Axis_Object09Cls
+Ka 0.584314 0.584314 0.584314
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 48.5029
+map_Kd ROSTY_8.png
+map_bump rosty_8N.png
+bump rosty_8N.png
+map_opacity 
+map_d 
+refl 
+map_kS rosty_8S.png
+map_kA 
+map_Ns 
+
+newmtl Axis_Obje1
+Ka 0.584314 0.584314 0.584314
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 48.5029
+map_Kd MET_21.png
+map_bump MET_21N.png
+bump MET_21N.png
+map_opacity 
+map_d 
+refl 
+map_kS MET_21S.png
+map_kA 
+map_Ns 
+
+newmtl Axis_Obje2
+Ka 0.584314 0.584314 0.584314
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 48.5029
+map_Kd TRAIN_3.png
+map_bump TRAIN_3N.png
+bump TRAIN_3N.png
+map_opacity 
+map_d 
+refl 
+map_kS TRAIN_3S.png
+map_kA 
+map_Ns 
+
+newmtl Axis_Object09Pol
+Ka 0.298039 0.298039 0.298039
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 48.5029
+map_Kd ROSTY_8.png
+map_bump rosty_8N.png
+bump rosty_8N.png
+map_opacity 
+map_d 
+refl 
+map_kS rosty_8S.png
+map_kA 
+map_Ns 
+
+newmtl Explorer_Default
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 

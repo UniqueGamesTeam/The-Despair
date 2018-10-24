@@ -1,0 +1,120 @@
+newmtl 08___Default
+Ka 0 0 0
+Kd 0.588 0.588 0.588
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m6_d.bmp
+map_bump m6_n.bmp
+bump m6_n.bmp
+
+newmtl 09___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd plate1_d.bmp
+map_bump plate1_n.bmp
+bump plate1_n.bmp
+
+newmtl 19___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd set1_d.bmp
+map_bump set1_n.bmp
+bump set1_n.bmp
+
+newmtl 20___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd set2_d.bmp
+map_bump set2_n.bmp
+bump set2_n.bmp
+
+newmtl orig_02___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 0
+Tf 1 1 1
+d 1
+map_Kd floor1_d.bmp
+map_bump floor1_n.bmp
+bump floor1_n.bmp
+
+newmtl 08___Default
+Ka 0 0 0
+Kd 0.588 0.588 0.588
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd m6_d.bmp
+map_bump m6_n.bmp
+bump m6_n.bmp
+
+newmtl 09___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd plate1_d.bmp
+map_bump plate1_n.bmp
+bump plate1_n.bmp
+
+newmtl 19___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd set1_d.bmp
+map_bump set1_n.bmp
+bump set1_n.bmp
+
+newmtl 20___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd set2_d.bmp
+map_bump set2_n.bmp
+bump set2_n.bmp
+
+newmtl orig_02___Default
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 0
+Tf 1 1 1
+d 1
+map_Kd floor1_d.bmp
+map_bump floor1_n.bmp
+bump floor1_n.bmp
+

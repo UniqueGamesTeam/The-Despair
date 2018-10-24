@@ -1,0 +1,182 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5 5.0.3.1555 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl Box01ClsMaterial
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 48.5029
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Box01Cls_6___Def
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 48.5029
+map_Kd M_1.png
+map_bump m_1N.png
+bump m_1N.png
+map_opacity 
+map_d 
+refl 
+map_kS m_1S.png
+map_kA 
+map_Ns 
+
+newmtl Box01Cls_3___Def
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 48.5029
+map_Kd WIN_1.png
+map_bump win_1N.png
+bump win_1N.png
+map_opacity 
+map_d 
+refl 
+map_kS win_1S.png
+map_kA 
+map_Ns 
+
+newmtl Box01Cls_4___Def
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 48.5029
+map_Kd BODEN_1.png
+map_bump boden_1N.png
+bump boden_1N.png
+map_opacity 
+map_d 
+refl 
+map_kS boden_1S.png
+map_kA 
+map_Ns 
+
+newmtl Box01Cls_7___Def
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 48.5029
+map_Kd CON_31_2.png
+map_bump con_31_1.png
+bump con_31_1.png
+map_opacity 
+map_d 
+refl 
+map_kS con_31_3.png
+map_kA 
+map_Ns 
+
+newmtl Box01Cls_2___Def
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 48.5029
+map_Kd BRICK30.png
+map_bump BRICK30N.png
+bump BRICK30N.png
+map_opacity 
+map_d 
+refl 
+map_kS BRICK30S.png
+map_kA 
+map_Ns 
+
+newmtl Box01Cls_1___Def
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 48.5029
+map_Kd MET_2.png
+map_bump met_2N.png
+bump met_2N.png
+map_opacity 
+map_d 
+refl 
+map_kS met_2S.png
+map_kA 
+map_Ns 
+
+newmtl Box01Cls_5___Def
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 48.5029
+map_Kd DOOR_3.png
+map_bump door_3N.png
+bump door_3N.png
+map_opacity 
+map_d 
+refl 
+map_kS door_3S.png
+map_kA 
+map_Ns 
+
+newmtl Explorer_Default
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Cylinder01Cls_8_
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 48.5029
+map_Kd ROSTY_6.png
+map_bump rosty_6N.png
+bump rosty_6N.png
+map_opacity 
+map_d 
+refl 
+map_kS rosty_6S.png
+map_kA 
+map_Ns 
+
+newmtl Cylinder03Cls_9_
+Ka 0.584314 0.584314 0.584314
+Kd 0.584314 0.584314 0.584314
+Ks 0.894118 0.894118 0.894118
+illum 2
+Ns 48.5029
+map_Kd ROHR_5.png
+map_bump rohr_5N.png
+bump rohr_5N.png
+map_opacity 
+map_d 
+refl 
+map_kS rohr_5S.png
+map_kA 
+map_Ns 
