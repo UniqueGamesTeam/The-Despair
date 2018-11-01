@@ -17,11 +17,31 @@ public class save_script : MonoBehaviour
     public GameObject hand_1;
     public GameObject hand_2;
     private bool check = false;
+    List<string> name_list = new List<string>() { };
+    public int num = 0;
+    public int index = 0;
 
 
     void Start()
     {
         bottle = GameObject.Find("bottle_for_save");
+
+    }
+    public void DeadZombies(string name)
+    {
+        name_list.Add(name);
+        num++;
+        //num++;
+
+        for (int i = index; i < num; i++)
+        {
+
+            PlayerPrefs.SetString("Name_zombies" + i, name_list[0]);
+            name_list.RemoveAt(0);
+        }
+        index++;
+
+
     }
     public void Save()
     {
@@ -32,6 +52,8 @@ public class save_script : MonoBehaviour
             PlayerPrefs.DeleteKey("PosZ");
             PlayerPrefs.DeleteKey("BulletsInClip");
             PlayerPrefs.DeleteKey("BulletsLeft");
+            PlayerPrefs.DeleteKey("Num");
+            PlayerPrefs.DeleteKey("Index_");
         }
         catch
         {
@@ -43,6 +65,9 @@ public class save_script : MonoBehaviour
         PlayerPrefs.SetFloat("PosZ", Cur_play_position.transform.position.z);
         PlayerPrefs.SetInt("BulletsInClip", bulletsScipt.BulletsInClip);
         PlayerPrefs.SetInt("BulletsLeft", bulletsScipt.BulletsLeft);
+        PlayerPrefs.SetInt("Num", num);
+        PlayerPrefs.SetInt("Index_", index);
+
         StartCoroutine(AnimatorSetFire());
 
 

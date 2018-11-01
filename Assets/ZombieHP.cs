@@ -6,10 +6,10 @@ public class ZombieHP : MonoBehaviour {
 
 	// Use this for initialization
 	public float zombieHealth;
+    public GameObject Zombie;
+    public save_script save;
 
-	
-
-	void Start () 
+    void Start () 
 	{
 		this.zombieHealth = 60f;
 	}
@@ -18,9 +18,12 @@ public class ZombieHP : MonoBehaviour {
 	{
 		if(this.zombieHealth<=0)
 			{
-				//Set Animatior
-				Debug.Log("ZombieDead");
-			}
+            //Set Animatior
+            Zombie.SetActive(false);
+            Debug.Log(Zombie.name);
+
+            save.DeadZombies(Zombie.name);
+        }
 		//Debug.Log(zombieHealth);
 	}
 	void ZombieHealth(float weaponDamage)
