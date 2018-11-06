@@ -8,6 +8,7 @@ public class ZombieHP : MonoBehaviour {
 	public float zombieHealth;
     public GameObject Zombie;
     public save_script save;
+	public Animator zombieAnimator;
 
     void Start () 
 	{
@@ -19,7 +20,8 @@ public class ZombieHP : MonoBehaviour {
 		if(this.zombieHealth<=0)
 			{
             //Set Animatior
-            Zombie.SetActive(false);
+            //Zombie.SetActive(false);
+			zombieAnimator.SetBool("Die",true);
             Debug.Log(Zombie.name);
 
             save.DeadZombies(Zombie.name);

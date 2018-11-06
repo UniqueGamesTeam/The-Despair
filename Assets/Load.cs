@@ -26,7 +26,7 @@ public class Load : MonoBehaviour {
             GameObject zombies = GameObject.Find(PlayerPrefs.GetString("Name_zombies" + i));
 
             
-                zombies.SetActive(false);
+            //zombies.SetActive(false);
             
             
 
