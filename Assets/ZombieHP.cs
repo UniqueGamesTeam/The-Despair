@@ -8,11 +8,13 @@ public class ZombieHP : MonoBehaviour {
 	public float zombieHealth;
     public GameObject Zombie;
     public save_script save;
-	public Animator zombieAnimator;
+
+	Animator zombieAnimator;
 
     void Start () 
 	{
 		this.zombieHealth = 60f;
+		this.zombieAnimator = GetComponent<Animator>();
 	}
 
 	void Update()
@@ -21,10 +23,10 @@ public class ZombieHP : MonoBehaviour {
 			{
             //Set Animatior
             //Zombie.SetActive(false);
-			zombieAnimator.SetBool("Die",true);
+			this.zombieAnimator.SetBool("Die",true);
             Debug.Log(Zombie.name);
 
-            save.DeadZombies(Zombie.name);
+            //save.DeadZombies(Zombie.name);
         }
 		//Debug.Log(zombieHealth);
 	}
