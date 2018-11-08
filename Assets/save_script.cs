@@ -18,6 +18,9 @@ public class save_script : MonoBehaviour
     public GameObject hand_2;
     private bool check = false;
     List<string> name_list = new List<string>() { };
+    List<float> zombie_x = new List<float>() { };
+    List<float> zombie_y = new List<float>() { };
+    List<float> zombie_z = new List<float>() { };
     public int num = 0;
     public int index = 0;
 
@@ -27,9 +30,12 @@ public class save_script : MonoBehaviour
         bottle = GameObject.Find("bottle_for_save");
 
     }
-    public void DeadZombies(string name)
+    public void DeadZombies(string name, float Zombie_x, float Zombie_y,float Zombie_z)
     {
         name_list.Add(name);
+        zombie_x.Add(Zombie_x);
+        zombie_y.Add(Zombie_y);
+        zombie_z.Add(Zombie_z);
         num++;
         //num++;
 
@@ -37,7 +43,13 @@ public class save_script : MonoBehaviour
         {
 
             PlayerPrefs.SetString("Name_zombies" + i, name_list[0]);
+            PlayerPrefs.SetFloat("zombie_x" + i, zombie_x[0]);
+            PlayerPrefs.SetFloat("zombie_y" + i, zombie_y[0]);
+            PlayerPrefs.SetFloat("zombie_z" + i, zombie_z[0]);
             name_list.RemoveAt(0);
+            zombie_x.RemoveAt(0);
+            zombie_y.RemoveAt(0);
+            zombie_z.RemoveAt(0);
         }
         index++;
 

@@ -19,14 +19,16 @@ public class ZombieHP : MonoBehaviour {
 
 	void Update()
 	{
-		if(this.zombieHealth<=0)
+        
+       // Debug.Log(Zombie.transform.position);
+        if (this.zombieHealth<=0)
 			{
             //Set Animatior
             //Zombie.SetActive(false);
 			this.zombieAnimator.SetBool("Die",true);
             Debug.Log(Zombie.name);
-
-            //save.DeadZombies(Zombie.name);
+            Debug.Log(this.Zombie.transform.position.x);
+            save.DeadZombies(this.Zombie.name, this.Zombie.transform.position.x, this.Zombie.transform.position.y, this.Zombie.transform.position.z);
         }
 		//Debug.Log(zombieHealth);
 	}

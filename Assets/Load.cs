@@ -7,6 +7,7 @@ public class Load : MonoBehaviour {
     public Transform Cur_play_position;
     public BulletsScipt bulletsScipt;
     public save_script save;
+    Animator Zombie_dead;
     public void Start()
     {
         Transform Cur_play_position = this.gameObject.transform;
@@ -24,12 +25,14 @@ public class Load : MonoBehaviour {
         {
 
             GameObject zombies = GameObject.Find(PlayerPrefs.GetString("Name_zombies" + i));
-
+            GameObject.Find(PlayerPrefs.GetString("Name_zombies" + i)).transform.position = new Vector3(PlayerPrefs.GetFloat("zombie_x" + i), PlayerPrefs.GetFloat("zombie_y" + i), PlayerPrefs.GetFloat("zombie_z" + i));
+            //GameObject.Find(PlayerPrefs.GetString("Name_zombies" + i)).transform.rotation = Quaternion.Euler(zombies.transform.rotation.x -75, zombies.transform.rotation.y+180, zombies.transform.rotation.z);
             
+            Zombie_dead = GameObject.Find(PlayerPrefs.GetString("Name_zombies" + i)).GetComponent<Animator>();
+
+            Zombie_dead.SetBool("Dead_load", true);
+
             //zombies.SetActive(false);
-            
-            
-
 
         }
     }
@@ -77,6 +80,9 @@ public class Load : MonoBehaviour {
         {
 
             PlayerPrefs.DeleteKey("Name_zombies" + i);
+            PlayerPrefs.DeleteKey("zombie_x" + i);
+            PlayerPrefs.DeleteKey("zombie_y" + i);
+            PlayerPrefs.DeleteKey("zombie_z" + i);
 
         }
         save.num = 0;
