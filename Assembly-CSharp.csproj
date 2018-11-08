@@ -105,6 +105,7 @@
      <Compile Include="Assets\SetSoundsVolume.cs" />
      <Compile Include="Assets\SettingsActive.cs" />
      <Compile Include="Assets\SettingsActiveGame.cs" />
+     <Compile Include="Assets\ShootFlash.cs" />
      <Compile Include="Assets\ShotAllow.cs" />
      <Compile Include="Assets\ShotSounds.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
