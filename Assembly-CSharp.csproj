@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets\as\HandyHands\scripts\showcasecam.cs" />
     <Compile Include="Assets\as\HandyHands\scripts\VisualizeJoint.cs" />
     <Compile Include="Assets\as\Scripts\AudioVolume.cs" />
@@ -587,6 +588,535 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
     </Reference>
+=======
+     <Compile Include="Assets\as\HandyHands\scripts\showcasecam.cs" />
+     <Compile Include="Assets\as\HandyHands\scripts\VisualizeJoint.cs" />
+     <Compile Include="Assets\as\Scripts\AudioVolume.cs" />
+     <Compile Include="Assets\as\Scripts\AudioVolume1.cs" />
+     <Compile Include="Assets\as\Scripts\CameraControl.cs" />
+     <Compile Include="Assets\as\Scripts\CharacterControllerScript.cs" />
+     <Compile Include="Assets\as\Scripts\EnemyMoveTowards.cs" />
+     <Compile Include="Assets\as\Scripts\FootStepsOnMaterials.cs" />
+     <Compile Include="Assets\as\Scripts\LookAt.cs" />
+     <Compile Include="Assets\as\Scripts\SensSettings.cs" />
+     <Compile Include="Assets\as\Scripts\SensSettingsGame.cs" />
+     <Compile Include="Assets\as\Scripts\TaskOnAwake.cs" />
+     <Compile Include="Assets\BackScript.cs" />
+     <Compile Include="Assets\BoxHp.cs" />
+     <Compile Include="Assets\BulletsScipt.cs" />
+     <Compile Include="Assets\CameraAnimation.cs" />
+     <Compile Include="Assets\CameraControlNew.cs" />
+     <Compile Include="Assets\CameraFollow.cs" />
+     <Compile Include="Assets\CameraFollow2.cs" />
+     <Compile Include="Assets\CameraShoot.cs" />
+     <Compile Include="Assets\ContinueButtonGame.cs" />
+     <Compile Include="Assets\FirstPersonController.cs" />
+     <Compile Include="Assets\FirstPersonControllerFix.cs" />
+     <Compile Include="Assets\GunShotScript.cs" />
+     <Compile Include="Assets\HandsAttackScript.cs" />
+     <Compile Include="Assets\HandsKick.cs" />
+     <Compile Include="Assets\HeadBob.cs" />
+     <Compile Include="Assets\JumpScript.cs" />
+     <Compile Include="Assets\Load.cs" />
+     <Compile Include="Assets\MouseLook.cs" />
+     <Compile Include="Assets\MovementScript.cs" />
+     <Compile Include="Assets\NewGameScript.cs" />
+     <Compile Include="Assets\OnAwakeScript.cs" />
+     <Compile Include="Assets\PauseScript.cs" />
+     <Compile Include="Assets\QuitScript.cs" />
+     <Compile Include="Assets\QuitToTheMenu.cs" />
+     <Compile Include="Assets\Recoil.cs" />
+     <Compile Include="Assets\ReloadSounds.cs" />
+     <Compile Include="Assets\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\RunToIdle.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+     <Compile Include="Assets\save_script.cs" />
+     <Compile Include="Assets\SetMusicVolume.cs" />
+     <Compile Include="Assets\SetSoundsVolume.cs" />
+     <Compile Include="Assets\SettingsActive.cs" />
+     <Compile Include="Assets\SettingsActiveGame.cs" />
+     <Compile Include="Assets\ShootFlash.cs" />
+     <Compile Include="Assets\ShotAllow.cs" />
+     <Compile Include="Assets\ShotSounds.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\Volumectic Blood Effects\Volumectic Blood Effects\Volumectic Blood Effects v1.0.0.0\Blood\Others\DemoGUI.cs" />
+     <Compile Include="Assets\Volumectic Blood Effects\Volumectic Blood Effects\Volumectic Blood Effects v1.0.0.0\Blood\Others\DemoReactivator.cs" />
+     <Compile Include="Assets\Volumectic Blood Effects\Volumectic Blood Effects\Volumectic Blood Effects v1.0.0.0\Blood\Others\UVTextureAnimator.cs" />
+     <Compile Include="Assets\WeaponSwitch.cs" />
+     <Compile Include="Assets\Western Props\Scripts\Destructible.cs" />
+     <Compile Include="Assets\Wood Impact\Script\WoodImpactScript.cs" />
+     <Compile Include="Assets\WoodKickParticleScript.cs" />
+     <Compile Include="Assets\WoodShotParticleScript.cs" />
+     <Compile Include="Assets\ZombieHP.cs" />
+     <Compile Include="Assets\ZombieTarget.cs" />
+     <None Include="Assets\builds\industrial2\leiter_kraftwerk_LOD1.txt" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_7_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\energiebox\energiebox_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\tire\tire_mesh.xml" />
+     <None Include="Assets\Volumectic Blood Effects\Volumectic Blood Effects\Volumectic Blood Effects v1.0.0.0\Blood\Shaders\Blood.shader" />
+     <None Include="Assets\builds\industrial2\train_liquid.txt" />
+     <None Include="Assets\Materialize\Shaders\Materialize_Property.shader" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_9_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_6_lod1_skeleton.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\builds\industrial2\building2\house2_LOD1.txt" />
+     <None Include="Assets\builds\industrial2\barrel_3.txt" />
+     <None Include="Assets\Materialize\Shaders\Struct.cginc" />
+     <None Include="Assets\builds\industrial4\models\aerials\arieals_1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\building_6\building_6_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\building3\kraftwerk_LOD1.txt" />
+     <None Include="Assets\builds\industrial2\zaun_blech_lang.txt" />
+     <None Include="Assets\builds\industrial2\building9\train_hall_1_LOD1.txt" />
+     <None Include="Assets\builds\industrial4\models\building_6\building_6_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\silo_2.txt" />
+     <None Include="Assets\builds\industrial4\models\drilling_platform\platform_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_4_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial2\oeltank_5_LOD1.txt" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_8_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\energiebox\energiebox2_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\building_9\building_9_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\tank_2_LOD2.txt" />
+     <None Include="Assets\builds\industrial2\oeltank_6_LOD1.txt" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_7_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\aerials\arieals_2_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\aerials\arieals_2_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\building_4\building_4_skeleton.xml" />
+     <None Include="Assets\Wood Impact\License (Read before using).txt" />
+     <None Include="Assets\builds\industrial4\models\pipe\pipes_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_2_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_5_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\tank_2\tank_2_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial2\pforte.txt" />
+     <None Include="Assets\builds\industrial2\mauer_B.txt" />
+     <None Include="Assets\builds\industrial4\models\building_4\building_4_lod2_mesh.xml" />
+     <None Include="Assets\builds\industrial2\kran_destroy_LOD1.txt" />
+     <None Include="Assets\builds\industrial2\building2\house2_LOD2.txt" />
+     <None Include="Assets\builds\industrial2\leiter_kraftwerk.txt" />
+     <None Include="Assets\builds\industrial4\models\building_6\building_6_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_4_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\valves_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\drilling_platform\platform_lod1_mesh.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\builds\industrial4\models\building_4\building_4_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\building_4\building_4_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\oeltank_5.txt" />
+     <None Include="Assets\builds\industrial2\heizturm_2.txt" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_8_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_7_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\wall_mount_mesh.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\builds\industrial2\steigrohr_2.txt" />
+     <None Include="Assets\builds\industrial2\zaun_blech_45grad.txt" />
+     <None Include="Assets\builds\industrial2\building7\lagerhalle_3_LOD1.txt" />
+     <None Include="Assets\builds\industrial4\models\pipe\pipes_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_3_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_2_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\indie.txt" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_2_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_9_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_7_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_6_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\tire\tire_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_5_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial2\wasserbecken_LOD1.txt" />
+     <None Include="Assets\as\HandyHands\shaders\handyskin.shader" />
+     <None Include="Assets\builds\industrial2\oeltank_6.txt" />
+     <None Include="Assets\builds\industrial4\models\building_9\building_9_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\energiebox\energiebox_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\tank_2\tank_2_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\barrel_2.txt" />
+     <None Include="Assets\builds\industrial4\models\building_4\building_4_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_3_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\building_9\building_9_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_9_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\wall_mount_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_6_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\building7\lagerhalle_3_LOD2.txt" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_5_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_4_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\pforte_LOD.txt" />
+     <None Include="Assets\builds\industrial2\building3\kraftwerk_LOD2.txt" />
+     <None Include="Assets\builds\industrial4\models\tank_2\tank_2_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\barrel_5.txt" />
+     <None Include="Assets\builds\industrial2\steigrohr_3.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\builds\industrial2\building7\lagerhalle_3.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\builds\industrial4\models\building_8\building_8_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_9_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_3_mesh.xml" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\builds\industrial2\steigrohr_kraftwerk.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\builds\industrial2\steigrohr_3_LOD1.txt" />
+     <None Include="Assets\builds\industrial2\heizturm_LOD2.txt" />
+     <None Include="Assets\builds\industrial2\sign_2.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\builds\industrial2\tank_2_LOD1..txt" />
+     <None Include="Assets\builds\industrial2\building9\train_hall_1.txt" />
+     <None Include="Assets\builds\industrial4\models\building_10\building_10_skeleton.xml" />
+     <None Include="Assets\Volumectic Blood Effects\Volumectic Blood Effects\Volumectic Blood Effects v1.0.0.0\Blood\Readme.txt" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_8_skeleton.xml" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+     <None Include="Assets\builds\industrial4\models\building_4\building_4_lod2_skeleton.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_6_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\drilling_platform\platform_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\sign_1.txt" />
+     <None Include="Assets\builds\industrial2\building3\kraftwerk.txt" />
+     <None Include="Assets\builds\industrial2\mauer_A.txt" />
+     <None Include="Assets\builds\industrial2\zaun_blech_kurz.txt" />
+     <None Include="Assets\builds\industrial4\models\building_9\building_9_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\rohrsystem_E.txt" />
+     <None Include="Assets\builds\industrial2\zaun_blech_loch.txt" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_8_mesh.xml" />
+     <None Include="Assets\Materialize\Shaders\Vert.cginc" />
+     <None Include="Assets\builds\industrial4\models\building_6\building_6_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\energiebox\energiebox2_mesh.xml" />
+     <None Include="Assets\Materialize\Shaders\Tess.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\builds\industrial2\heizturm_LOD1.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\builds\industrial4\models\aerials\arieals_2_mesh.xml" />
+     <None Include="Assets\builds\industrial2\building2\house2_LOD3.txt" />
+     <None Include="Assets\builds\industrial2\train_liquid_LOD1.txt" />
+     <None Include="Assets\builds\industrial4\models\building_8\building_8_mesh.xml" />
+     <None Include="Assets\builds\industrial2\steigrohr_2_LOD1.txt" />
+     <None Include="Assets\builds\industrial2\barrel_6_no_logo.txt" />
+     <None Include="Assets\builds\industrial4\models\drilling_platform\platform_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\energiebox\energiebox_mesh.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\builds\industrial4\models\aerials\arieals_1_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_4_mesh.xml" />
+     <None Include="Assets\builds\industrial2\wasserbecken.txt" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_2_mesh.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\builds\industrial2\barrel_4.txt" />
+     <None Include="Assets\Materialize\Shaders\Frag.cginc" />
+     <None Include="Assets\builds\industrial2\heizturm_2_LOD1.txt" />
+     <None Include="Assets\builds\industrial4\models\pipe\pipes_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\rohrsystem_B.txt" />
+     <None Include="Assets\builds\industrial2\barrel_1.txt" />
+     <None Include="Assets\builds\industrial2\oeltank_LOD1.txt" />
+     <None Include="Assets\builds\industrial4\models\tank_2\tank_2_mesh.xml" />
+     <None Include="Assets\builds\industrial4\EULA.txt" />
+     <None Include="Assets\Volumectic Blood Effects\Volumectic Blood Effects\Volumectic Blood Effects v1.0.0.0\Blood\Shaders\BloodNoSmooth.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_3_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\mauer_C.txt" />
+     <None Include="Assets\builds\industrial2\building6\lagerhalle_2.txt" />
+     <None Include="Assets\builds\industrial2\tank_2.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\builds\industrial2\kran_destroy.txt" />
+     <None Include="Assets\builds\industrial4\models\building_8\building_8_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe\pipes_lod1_mesh.xml" />
+     <None Include="Assets\builds\industrial2\building2\house2.txt" />
+     <None Include="Assets\builds\industrial4\models\energiebox\energiebox_skeleton.xml" />
+     <None Include="Assets\as\HandyHands\readme.txt" />
+     <None Include="Assets\Materialize\Shaders\Materialize_Property_Displace.shader" />
+     <None Include="Assets\builds\industrial4\models\aerials\arieals_1_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\building_8\building_8_skeleton.xml" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\builds\industrial4\models\building_10\building_10_lod1_skeleton.xml" />
+     <None Include="Assets\builds\industrial2\heizturm_2_LOD2.txt" />
+     <None Include="Assets\builds\industrial2\building6\lagerhalle_2_LOD1.txt" />
+     <None Include="Assets\Materialize\Shaders\Materialize_Standard_Displace.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Materialize\Shaders\Materialize_Standard.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_5_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\aerials\arieals_1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\building_10\building_10_lod1_mesh.xml" />
+     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_1_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\aerials\arieals_2_skeleton.xml" />
+     <None Include="Assets\builds\industrial4\models\building_10\building_10_mesh.xml" />
+     <None Include="Assets\builds\industrial4\models\pipe_set\valves_skeleton.xml" />
+ <Reference Include="UnityEditor.StandardEvents">
+ <HintPath>C:/Users/Serveladik/Documents/The-Dispare/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/Users/Serveladik/Documents/The-Dispare/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/Serveladik/Documents/The-Dispare/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>C:/Users/Serveladik/Documents/The-Dispare/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.BaselibModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CloudWebServicesModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FacebookModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FileSystemHttpModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticlesLegacyModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StyleSheetsModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TimelineModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>G:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Locator">
+ <HintPath>G:/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>G:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>G:/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>G:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>G:/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>G:/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>G:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/Serveladik/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/Users/Serveladik/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript">
+ <HintPath>G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript.Lang">
+ <HintPath>G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>G:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+ </Reference>
+>>>>>>> 4a3d0633e7776955c4f5efce76729f077b18f23d
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
