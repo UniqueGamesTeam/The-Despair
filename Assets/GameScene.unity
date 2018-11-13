@@ -18768,6 +18768,7 @@ GameObject:
   - component: {fileID: 1118320146}
   - component: {fileID: 1118320148}
   - component: {fileID: 1118320149}
+  - component: {fileID: 1118320150}
   m_Layer: 2
   m_Name: FPSController
   m_TagString: Main_Player
@@ -18995,6 +18996,19 @@ MonoBehaviour:
   Cur_play_position: {fileID: 1118320143}
   bulletsScipt: {fileID: 1812632439}
   save: {fileID: 567815711}
+--- !u!114 &1118320150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1118320142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e3e691ff07390408182629f8ac8502, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reloadAnim: {fileID: 1812632436}
+  moveScript: {fileID: 1118320146}
 --- !u!4 &1118367356 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 76b644e2e694dcc49ab2ae6618591eba,

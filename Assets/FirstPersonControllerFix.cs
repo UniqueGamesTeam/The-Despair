@@ -49,7 +49,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         public Animator animLeft;
 	    public Animator animRight;
-
+        
 	    public Animator CameraWalk;
 	    public Animator RunWithPistol;
        
