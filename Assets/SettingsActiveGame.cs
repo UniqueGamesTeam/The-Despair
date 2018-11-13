@@ -10,6 +10,8 @@ public GameObject gameMenu;
 
 	public void Settings()
 	{
+		
+		Cursor.visible=true;
 		gameMenu.SetActive(false);
 		settingsMenu.SetActive(true);
 	}

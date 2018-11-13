@@ -7,6 +7,7 @@ public class QuitToTheMenu : MonoBehaviour {
 
 	public void Quit()
 	{
+		Cursor.visible = true;
 		SceneManager.LoadScene("MenuScene");
 	}
 }

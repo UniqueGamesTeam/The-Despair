@@ -7,8 +7,7 @@ using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
 
 
-namespace UnityStandardAssets.Characters.FirstPerson
-{
+
     [RequireComponent(typeof (CharacterController))]
     [RequireComponent(typeof (AudioSource))]
     
@@ -23,7 +22,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private float m_JumpSpeed;
         [SerializeField] private float m_StickToGroundForce;
         [SerializeField] private float m_GravityMultiplier;
-        [SerializeField] private MouseLook m_MouseLook;
+        public MouseLook m_MouseLook;
      
         public float speed = 0f;
         
@@ -143,7 +142,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             ProgressStepCycle(speed);
            
            
-            m_MouseLook.UpdateCursorLock();
+            //m_MouseLook.UpdateCursorLock();
            
             
         }
@@ -310,4 +309,4 @@ void NothingPressed()
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
         }
     }
-}
+

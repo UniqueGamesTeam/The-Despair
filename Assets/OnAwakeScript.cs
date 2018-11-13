@@ -7,6 +7,7 @@ public class OnAwakeScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
+		Time.timeScale = 1f;
 		Cursor.visible = false;
 	}
 	
