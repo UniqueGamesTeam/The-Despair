@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AmmoBox.cs" />
      <Compile Include="Assets\as\HandyHands\scripts\showcasecam.cs" />
      <Compile Include="Assets\as\HandyHands\scripts\VisualizeJoint.cs" />
      <Compile Include="Assets\as\Scripts\AudioVolume.cs" />

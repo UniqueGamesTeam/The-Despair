@@ -9,17 +9,20 @@ public GameObject CrackedBox;
 
 
 public float Health;
-	
+public GameObject ammoBox;
+public SphereCollider ammoTrigger;
 	
 	void Start () 
 	{
 		this.Health = 60f;
+		this.ammoTrigger.enabled=false;
 	}
 
 	void Update()
 	{
 		if(this.Health<=0)
 			{
+				this.ammoTrigger.enabled=true;
 				Instantiate(CrackedBox,transform.position,transform.rotation);
 				Destroy(this.gameObject);
 			}
