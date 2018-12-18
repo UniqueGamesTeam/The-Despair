@@ -9,7 +9,6 @@ public GameObject CrackedBox;
 
 
 public float Health;
-public GameObject ammoBox;
 public SphereCollider ammoTrigger;
 	
 	void Start () 

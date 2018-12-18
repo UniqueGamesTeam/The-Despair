@@ -8,7 +8,7 @@ public class ZombieHP : MonoBehaviour {
 	public float zombieHealth;
     public GameObject Zombie;
     public save_script save;
-
+	public bool isDead;
 	Animator zombieAnimator;
 
     void Start () 
@@ -26,11 +26,12 @@ public class ZombieHP : MonoBehaviour {
             //Set Animatior
             //Zombie.SetActive(false);
 			this.zombieAnimator.SetBool("Die",true);
-            Debug.Log(Zombie.name);
-            Debug.Log(this.Zombie.transform.position.x);
+            this.isDead=true;
+            
             save.DeadZombies(this.Zombie.name, this.Zombie.transform.position.x, this.Zombie.transform.position.y, this.Zombie.transform.position.z);
-        }
+        	}
 		//Debug.Log(zombieHealth);
+		Debug.Log(isDead);
 	}
 	void ZombieHealth(float weaponDamage)
 	{

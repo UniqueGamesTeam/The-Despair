@@ -6,7 +6,6 @@ using UnityStandardAssets.Characters.FirstPerson;
 public class PauseScript : MonoBehaviour {
 
 public bool pause = false;
-
 public FirstPersonControllerFix movement;
 public ShotAllow shoot;
 public GameObject menu;

@@ -28,28 +28,28 @@ RaycastHit hitBox;
 				if(bletScript.BulletsInClip>0)
 				{
 					if(Physics.Raycast(myCamera.transform.position, myCamera.transform.forward,out hitBox) && hitBox.transform.tag == "Box")
-  				{
+  					{
 						hitBox.transform.SendMessageUpwards("BoxHealth", weaponDamages);
-  					Instantiate(woodParticle,hitBox.point,Quaternion.FromToRotation(myCamera.transform.forward,hitBox.normal));
-  				}	
+  						Instantiate(woodParticle,hitBox.point,Quaternion.FromToRotation(myCamera.transform.forward,hitBox.normal));
+  					}	
 
 					if(Physics.Raycast(myCamera.transform.position, myCamera.transform.forward,out hitBox) && hitBox.transform.tag == "ZombieTag")
-  				{
+  					{
 						Debug.Log("Body");
 						weaponDamages = 30f;
 						hitBox.transform.SendMessageUpwards("ZombieHealth", weaponDamages);
 						//Blood particles
-  					Instantiate(bloodParticle,hitBox.point,Quaternion.FromToRotation(myCamera.transform.forward,hitBox.normal));
-  				}	
+  						Instantiate(bloodParticle,hitBox.point,Quaternion.FromToRotation(myCamera.transform.forward,hitBox.normal));
+  					}	
 
 					if(Physics.Raycast(myCamera.transform.position, myCamera.transform.forward,out hitBox) && hitBox.transform.tag == "ZombieHeadTag")
-  				{
+  					{
 						Debug.Log("HEAD");
 						weaponDamages = 60f;
 						hitBox.transform.SendMessageUpwards("ZombieHealth", weaponDamages);
 						//Blood particles
-  					Instantiate(bloodParticle,hitBox.point,Quaternion.FromToRotation(myCamera.transform.forward,hitBox.normal));
-  				}	
+  						Instantiate(bloodParticle,hitBox.point,Quaternion.FromToRotation(myCamera.transform.forward,hitBox.normal));
+  					}	
 				}
 			}
 		}

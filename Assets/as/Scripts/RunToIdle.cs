@@ -6,10 +6,9 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class RunToIdle : MonoBehaviour {
 
-	// Use this for initialization
+
 	public Animator animator;
 	public bool runInAnim=false;
-	//public Animation runAnim;
 	public FirstPersonControllerFix allowRuning;
 	// Update is called once per frame
 	void Update () 

@@ -13,7 +13,6 @@ public Camera myCamera;
 	
 public GameObject bulletDecal;
 public ParticleSystem flash;
-public bool canShoot = false;
 public ShotAllow shootFlag;
 public Animator cameraShootAnim;
 

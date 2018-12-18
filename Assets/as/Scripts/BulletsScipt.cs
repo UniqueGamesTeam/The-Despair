@@ -7,7 +7,7 @@ public class BulletsScipt : MonoBehaviour {
 
 public int BulletsInClip = 8;
 public int BulletsLeft = 16;
-public int bull;
+
 
 public Text bulletsUI;
 public Animator reloadAnim;
