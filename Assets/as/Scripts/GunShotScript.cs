@@ -28,12 +28,8 @@ public Animator cameraShootAnim;
 		
 		if (this.HandsShot.GetCurrentAnimatorStateInfo(0).IsName("GunPickAnim"))
  		{
-   	 HandsShot.SetBool("Picked",true);
+   	 		HandsShot.SetBool("Picked",true);
  		}
-
-	
-		
-		
 	}
 
 	void Shoot()
@@ -65,13 +61,13 @@ public Animator cameraShootAnim;
   {
   	RaycastHit hit;
   	if(Input.GetMouseButtonDown(0))
-			{ 
+		{ 
   			if(shootFlag.shoot == true && Physics.Raycast(myCamera.transform.position, myCamera.transform.forward,out hit))
   			{
-  				Instantiate(bulletDecal,hit.point,Quaternion.FromToRotation(Vector3.up,hit.normal));
-  				//Debug.Log(hit.transform.name);
+  				GameObject go = Instantiate(bulletDecal,hit.point,Quaternion.FromToRotation(Vector3.up,hit.normal));
+  				go.transform.parent = hit.transform;
   			}	
-			}
+		}
   }
 
 	
