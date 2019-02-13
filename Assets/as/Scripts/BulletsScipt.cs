@@ -32,6 +32,11 @@ public ShotAllow shootScript;
 		{
 			if(shootScript.shoot == true)
 			{
+				if(BulletsInClip==1)
+			{
+				shootScript.shoot = true;
+				BulletsInClip-=1;
+			}
 			if(BulletsInClip>0)
 			{
 				shootScript.shoot = true;

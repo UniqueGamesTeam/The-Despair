@@ -11,6 +11,7 @@ public GameObject Pistol;
 
 public AudioClip[] ShotClips;
 public AudioSource audio;
+public bool PistolAllow=false;
 
 	// Use this for initialization
 	void Start()
@@ -31,13 +32,15 @@ public AudioSource audio;
 
 		if(Input.GetKeyDown("2"))
 		{
-			audio.clip = ShotClips[0];
-			audio.PlayOneShot(audio.clip);
-
-			LeftHand.SetActive(false);
-			RightHand.SetActive(false);
-
-			Pistol.SetActive(true);
+			
+			if(PistolAllow==true)
+			{
+				audio.clip = ShotClips[0];
+				LeftHand.SetActive(false);
+				RightHand.SetActive(false);
+				audio.PlayOneShot(audio.clip);
+				Pistol.SetActive(true);
+			}
 		}
 
 	}

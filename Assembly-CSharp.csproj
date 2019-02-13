@@ -92,6 +92,7 @@
      <Compile Include="Assets\as\Scripts\ZombieTarget.cs" />
      <Compile Include="Assets\CameraSwitching.cs" />
      <Compile Include="Assets\DeactivateCutScene.cs" />
+     <Compile Include="Assets\PistolPick.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -329,11 +330,11 @@
  <Reference Include="Unity.PackageManagerUI.Editor">
  <HintPath>O:/The-Despair/The-Despair/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>O:/The-Despair/The-Despair/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>O:/The-Despair/The-Despair/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>O:/The-Despair/The-Despair/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>O:/The-Despair/The-Despair/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>

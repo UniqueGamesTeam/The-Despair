@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AmmoTextAnim
+  m_Name: PistolPickedAnim
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -133,7 +133,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.175
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -158,7 +158,7 @@ AnimationClip:
     classID: 114
     script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_PPtrCurves: []
-  m_SampleRate: 40
+  m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -338,7 +338,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.175
+        time: 0.16666667
         value: 1
         inSlope: 0
         outSlope: 0

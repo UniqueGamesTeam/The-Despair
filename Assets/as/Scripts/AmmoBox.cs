@@ -22,22 +22,23 @@ public bool pickupFlag=false;
 	{
 		if(pickupFlag==true)
 		{
-		if(Input.GetKeyDown(KeyCode.E))
-		 {
-			bltScript.BulletsLeft+=bulletInBox;
-			ammoPickedText.enabled = true;
-			ammoPickedText.text = "Picked ammo: +"+ bulletInBox;
-			ammoTextAnim.SetBool("PickedUp",true);
+			if(Input.GetKeyDown(KeyCode.E))
+			{
+				bltScript.BulletsLeft+=bulletInBox;
+				ammoPickedText.enabled = true;
+				ammoPickedText.text = "Picked ammo: +"+ bulletInBox;
+				ammoTextAnim.SetBool("PickedUp",true);
 		
-			Destroy(this.gameObject);
-			ammoText.enabled=false;
-		 }
-		 if (this.ammoTextAnim.GetCurrentAnimatorStateInfo(0).IsName("AmmoTextAnim"))
- 		{
-			ammoPickedText.enabled = false;
-			ammoTextAnim.SetBool("PickedUp",false);
+				Destroy(this.gameObject);
+				ammoText.enabled=false;
+		 	}
+			 if (this.ammoTextAnim.GetCurrentAnimatorStateInfo(0).IsName("AmmoTextAnim"))
+ 			{
+				ammoPickedText.enabled = false;
+				ammoTextAnim.SetBool("PickedUp",false);
+			}
 		}
-		}
+		
 	}
 	
 	// Update is called once per frame
