@@ -322,6 +322,7 @@
     <None Include="Assets\builds\industrial2\building6\lagerhalle_2_LOD1.txt" />
     <None Include="Assets\Materialize\Shaders\Materialize_Standard_Displace.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\_TerrainAutoUpgrade\Table\Old_Warehouse\Read-me, Leia-me.txt" />
     <None Include="Assets\Materialize\Shaders\Materialize_Standard.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\builds\industrial4\models\pipe_set\pipe_5_mesh.xml" />

@@ -182,6 +182,38 @@ ModelImporter:
     4300058: Circle.021
     4300060: Circle.022
     4300062: Plane.002
+    6400000: Circle
+    6400002: Circle.001
+    6400004: Circle.002
+    6400006: Circle.003
+    6400008: Circle.004
+    6400010: Circle.005
+    6400012: Circle.006
+    6400014: Circle.007
+    6400016: Circle.008
+    6400018: Circle.009
+    6400020: Circle.010
+    6400022: Circle.011
+    6400024: Circle.012
+    6400026: Circle.013
+    6400028: Circle.014
+    6400030: Circle.015
+    6400032: Circle.016
+    6400034: Circle.017
+    6400036: Circle.018
+    6400038: Circle.019
+    6400040: Circle.020
+    6400042: Circle.021
+    6400044: Circle.022
+    6400046: Cube
+    6400048: Cube.001
+    6400050: Cube.002
+    6400052: Cube.003
+    6400054: Plane
+    6400056: Plane.001
+    6400058: Plane.002
+    6400060: Skam
+    6400062: Skam.001
     10800000: Lamp
     10800002: Sun
   externalObjects: {}
@@ -217,7 +249,8 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -242,6 +275,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -256,7 +292,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
