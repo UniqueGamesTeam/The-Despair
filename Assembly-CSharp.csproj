@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_TerrainAutoUpgrade\Table\gear\Logo_Rotation.cs" />
     <Compile Include="Assets\as\HandyHands\scripts\showcasecam.cs" />
     <Compile Include="Assets\as\HandyHands\scripts\VisualizeJoint.cs" />
     <Compile Include="Assets\as\Scripts\AmmoBox.cs" />

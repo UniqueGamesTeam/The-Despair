@@ -1,37 +1,18 @@
 fileFormatVersion: 2
-guid: fa1e483bdafa2a04487402f504abd936
+guid: d92b78a44474a0d488f7e284866709d0
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Axis1
-    100002: Axis2
-    100004: Axis23
-    100006: Axis3
-    100008: Axis36
-    100010: Axis5
-    100012: MDL-Axis_O
-    100014: MSH-Axis_6
-    100016: MSH-Axis_O
-    100018: //RootNode
-    400000: Axis1
-    400002: Axis2
-    400004: Axis23
-    400006: Axis3
-    400008: Axis36
-    400010: Axis5
-    400012: MDL-Axis_O
-    400014: MSH-Axis_6
-    400016: MSH-Axis_O
-    400018: //RootNode
-    2100000: DefaultLib_Mater
-    2100002: Axis_Object09Cls
-    2100004: Axis_Obje1
-    2100006: Axis_Obje2
-    2100008: Axis_Object09Pol
-    2300000: MSH-Axis_6
-    3300000: MSH-Axis_6
-    4300000: MSH-Axis_6
-    6400000: MSH-Axis_6
+    100000: //RootNode
+    400000: //RootNode
+    2100000: STEEL OXYD
+    2100002: Steel
+    2100004: chrome
+    2100006: Concrete
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Rails_
+    6400000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
