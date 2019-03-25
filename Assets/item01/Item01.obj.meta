@@ -170,6 +170,13 @@ ModelImporter:
     2100104: pCylinder1Mat
     2100106: pCylinder2Mat
     2100108: pPlane1Mat
+    2100110: boxwood_lambert2SG
+    2100112: boxxe_phong1SG
+    2100114: lambert2SG
+    2100116: lambert3SG
+    2100118: lambert4SG
+    2100120: phong1SG
+    2100122: phong2SG
     2300000: boxwood:pCube1
     2300002: boxxe:pCylinder1
     2300004: pCube1
