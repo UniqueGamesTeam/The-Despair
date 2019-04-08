@@ -12,6 +12,8 @@ public int BulletsLeft = 16;
 public Text bulletsUI;
 public Animator reloadAnim;
 public ShotAllow shootScript;
+public FireButtonScript fireButton;
+public ReloadButton reload;
 	// Use this for initialization
 
 	void Start()
@@ -28,24 +30,26 @@ public ShotAllow shootScript;
 	{
 		bulletsUI.text = BulletsInClip.ToString()+"/" + BulletsLeft.ToString();
 
-		if(Input.GetMouseButtonDown(0))
+		if(fireButton.fireButton==true)
 		{
 			if(shootScript.shoot == true)
 			{
 				if(BulletsInClip==1)
-			{
-				shootScript.shoot = true;
-				BulletsInClip-=1;
-			}
-			if(BulletsInClip>0)
-			{
-				shootScript.shoot = true;
-				BulletsInClip-=1;
-			}
-			else
-			{
-				shootScript.shoot = false;
-			}
+				{
+					shootScript.shoot = true;
+					BulletsInClip-=1;
+					fireButton.fireButton=false;
+				}
+				if(BulletsInClip>0)
+				{
+					shootScript.shoot = true;
+					BulletsInClip-=1;
+					fireButton.fireButton=false;
+				}
+				else
+				{
+					shootScript.shoot = false;
+				}
 			}
 		}
 
@@ -65,7 +69,7 @@ public ShotAllow shootScript;
 	{
 		if(BulletsLeft>0)
 		{
-			if(Input.GetKeyDown(KeyCode.R))
+			if(reload.ReloadPressed==true)
 			{
 				if(BulletsInClip+BulletsLeft<=8)
 				{

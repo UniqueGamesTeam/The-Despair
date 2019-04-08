@@ -6,24 +6,33 @@ using UnityEngine.UI;
 
 public class SetSensValue : MonoBehaviour {
 
-public Slider musicSlider;
-public MouseLook mouseSens;
+public Slider mouseSensSlider;
+public CameraScript mouseSens;
 public Text musicText;
 	// Use this for initialization
-	void Awake () 
+	
+	void Start()
 	{
-		musicSlider.value = PlayerPrefs.GetFloat("MouseSens");
+		if(PlayerPrefs.GetFloat("MouseSens")!=0)
+		{
+			mouseSensSlider.value = PlayerPrefs.GetFloat("MouseSens");
+		}
+		else
+		{
+			mouseSensSlider.value = 5f;
+		}
+		
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		mouseSens.XSensitivity = musicSlider.value;
-		mouseSens.YSensitivity = musicSlider.value;
+		mouseSens.XSensitivity = mouseSensSlider.value;
+		mouseSens.YSensitivity = mouseSensSlider.value;
 
-		PlayerPrefs.SetFloat("MouseSens",musicSlider.value);
+		PlayerPrefs.SetFloat("MouseSens",mouseSensSlider.value);
 		
 
-		musicText.text = musicSlider.value.ToString("0.##");
+		musicText.text = mouseSensSlider.value.ToString("0.##");
 	}
 }

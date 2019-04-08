@@ -5,12 +5,18 @@ using UnityEngine.AI;
 public class ZombieTarget : MonoBehaviour {
 
 	// Use this for initialization
+	
 	public ZombieHP DeadStatus;
 	public NavMeshAgent zombieNavMesh;
 	public Transform player;
 	public Transform zombie;
 	public Animator zombieAnim;
 	public SphereCollider sphereCollider;
+    public bool inVision=false;
+	public AudioClip[] zombieClip;
+	public AudioSource audioOneShot;
+	public AudioSource audioLooped;
+	private bool isAttacking=false;
 	void Start()
 	{
 		zombie = GetComponent<Transform>();
@@ -22,18 +28,42 @@ public class ZombieTarget : MonoBehaviour {
 		{
 			if(sphereCollider.gameObject.tag == "Main_Player")
 			{
-				Debug.Log("ZZZZ");
-				zombieNavMesh.SetDestination(player.position);
+                this.inVision = true;
+				Debug.Log("Chasing HUMAN!");
+
+				//audioOneShot.clip = zombieClip[0];
+				//audioOneShot.PlayOneShot(zombieClip[0]);
+				StartCoroutine("PlayLooped");
+				
 				zombieAnim.SetBool("Attack",true);
 			}
 		}
 	}
-	void Update()
+	IEnumerator PlayLooped()
 	{
+		yield return new WaitForSeconds(0f);
+		audioLooped.clip = zombieClip[1];
+		audioLooped.Play();	
+		
+	}
+		void Update()
+	{
+	
+        if(this.inVision==true)
+        {
+			
+            zombieNavMesh.SetDestination(player.position);
+			
+        }
+		
+		
 		if (DeadStatus.isDead==true)
 		{
-			zombieNavMesh.SetDestination(zombie.position);
+
+			//zombieNavMesh.SetDestination(zombie.position);
+			isAttacking=false;
 			zombieAnim.SetBool("Attack",false);
 		}
 	}
+	
 }

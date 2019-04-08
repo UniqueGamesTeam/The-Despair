@@ -15,7 +15,7 @@ public GameObject bulletDecal;
 public ParticleSystem flash;
 public ShotAllow shootFlag;
 public Animator cameraShootAnim;
-
+public FireButtonScript fireButton;
 //
 
 	// Update is called once per frame
@@ -34,21 +34,23 @@ public Animator cameraShootAnim;
 
 	void Shoot()
 	{
-	if(Input.GetMouseButtonDown(0))
-		{ 
+	if(fireButton.fireButton==true)
+		{
 			if(shootFlag.shoot == true)
 			{
 				GunShotAnim.SetBool("Shoot",true);	
 				HandsShot.SetBool("ShootHands",true);
 				HandsShot.SetBool("ShotWhileRun",true);
 				cameraShootAnim.SetBool("CameraShoot",true);
+				
 			}
+			
 		}
 	}
 
 	void UnShoot()
 	{
-		if(Input.GetMouseButtonUp(0))
+		if(fireButton.fireButton==false)
 		{
 			GunShotAnim.SetBool("Shoot",false);	
 			HandsShot.SetBool("ShootHands",false);
@@ -60,8 +62,8 @@ public Animator cameraShootAnim;
   void Shooting()
   {
   	RaycastHit hit;
-  	if(Input.GetMouseButtonDown(0))
-		{ 
+  	if(fireButton.fireButton==true)
+		{
   			if(shootFlag.shoot == true && Physics.Raycast(myCamera.transform.position, myCamera.transform.forward,out hit))
   			{
   				GameObject go = Instantiate(bulletDecal,hit.point,Quaternion.FromToRotation(Vector3.up,hit.normal));

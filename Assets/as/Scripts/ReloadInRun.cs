@@ -4,14 +4,14 @@ using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 public class ReloadInRun : MonoBehaviour {
 
-
+public ReloadButton reload;
 public Animator reloadAnim;
 public FirstPersonControllerFix moveScript;
 	
 	void Update () 
 	{
 		
-		if(moveScript.m_IsWalking==false && Input.GetKeyDown(KeyCode.R))
+		if(moveScript.m_IsWalking==false && reload.ReloadPressed==true)
 		{
 			reloadAnim.SetBool("ReloadInRun",true);
 			moveScript.m_IsWalking=true;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class WoodShotParticleScript : MonoBehaviour {
-
+public FireButtonScript fireButton;
 public GameObject bloodParticle;
 public GameObject woodParticle;
 public GameObject myCamera;
@@ -21,7 +21,7 @@ RaycastHit hitBox;
 
 	void WoodImpactParticle()
 	{
-		if(Input.GetMouseButtonDown(0))
+		if(fireButton.fireButton==true)
 		{
 			if(shootScript.shoot == true)
 			{

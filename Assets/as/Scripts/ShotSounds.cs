@@ -8,19 +8,16 @@ public class ShotSounds : MonoBehaviour {
 	public AudioClip[] ShotClips;
 	public AudioSource audio;
 	public ShotAllow shootFlag;
-	
+	public FireButtonScript fireButton;
 	// Update is called once per frame
 
-	void Start()
-	{
-		audio.volume = 0.7f;
-	}
+	
 
 	void Update () 
 	{
 		if(shootFlag.shoot == true)
 		{
-			if(Input.GetMouseButtonDown(0))
+			if(fireButton.fireButton==true)
 			{
 				audio.clip = ShotClips[0];
 				audio.PlayOneShot(audio.clip);

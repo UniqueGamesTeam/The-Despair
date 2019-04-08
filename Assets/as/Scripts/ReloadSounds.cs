@@ -10,10 +10,7 @@ public class ReloadSounds : MonoBehaviour {
 	
 	// Update is called once per frame
 
-	void Start()
-	{
-		audio.volume = 0.7f;
-	}
+	
 
 	void ClipDown () 
 	{

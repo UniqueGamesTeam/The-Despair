@@ -5,13 +5,15 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class ContinueButtonGame : MonoBehaviour {
 
-public MouseLook mouseLook;
+public CameraScript mouseLook;
 public ShotAllow shoot;
 public FirstPersonControllerFix movement;
 public GameObject menu;
 
+
 	public void Continue()
 	{
+		//menuButton.MenuButtonScript1=false;
 		movement.enabled=true;
 		menu.SetActive(false);
 		mouseLook.enabled = true;

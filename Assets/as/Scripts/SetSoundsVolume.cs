@@ -7,13 +7,21 @@ public class SetSoundsVolume : MonoBehaviour {
 
 public Slider soundSlider;
 public AudioSource soundSource;
+
 public Text soundText;
 	// Use this for initialization
-	void Awake () 
-	{
-		soundSlider.value = PlayerPrefs.GetFloat("SoundVolume");
-	}
 	
+	void Awake()
+	{
+		if(PlayerPrefs.GetFloat("SoundVolume")!=0)
+		{
+			soundSlider.value = PlayerPrefs.GetFloat("SoundVolume");
+		}
+		else
+		{
+			soundSlider.value = 0.4f;
+		}
+	}
 	// Update is called once per frame
 	void Update () 
 	{

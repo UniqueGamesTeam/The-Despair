@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class AudioVolume : MonoBehaviour {
-	public AudioVolume1 MenuMusicScript;
+	//public AudioVolume1 MenuMusicScript;
 	public Slider volumeSlider;
 	public AudioSource soundsGame;
 	public AudioSource stepsMenu;

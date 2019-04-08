@@ -9,9 +9,20 @@ public Slider musicSlider;
 public AudioSource musicSource;
 public Text musicText;
 	// Use this for initialization
-	void Awake () 
+	
+	void Awake()
 	{
-		musicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
+		
+		if(PlayerPrefs.GetFloat("MusicVolume")!=0)
+		{
+			musicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
+		}
+		else
+		{
+			musicSlider.value = 0.4f;
+		}
+		
+		
 	}
 	
 	// Update is called once per frame

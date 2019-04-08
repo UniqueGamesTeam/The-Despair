@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
-
+using UnityEngine.UI;
 
 
     [RequireComponent(typeof (CharacterController))]
@@ -13,7 +13,11 @@ using Random = UnityEngine.Random;
     
     public class FirstPersonControllerFix : MonoBehaviour
     {
+        
         public CharacterController characterController;
+        public RunButton runBool;
+        public LeftRightMovement WalkBoolLR;
+        public UpDownMovement WalkBoolUD;
         [SerializeField] public bool m_IsWalking;
         [SerializeField] public float m_WalkSpeed;
         [SerializeField] public float m_RunSpeed;
@@ -45,9 +49,10 @@ using Random = UnityEngine.Random;
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        public Slider soundSlider;
 
-        public Animator animLeft;
-	    public Animator animRight;
+        //public Animator animLeft;
+	    //public Animator animRight;
         
 	    public Animator CameraWalk;
 	    public Animator RunWithPistol;
@@ -58,6 +63,9 @@ using Random = UnityEngine.Random;
         private void Start()
         {
             
+            
+            
+            
             m_CharacterController = GetComponent<CharacterController>();
             m_Camera = Camera.main;
             m_OriginalCameraPosition = m_Camera.transform.localPosition;
@@ -65,7 +73,8 @@ using Random = UnityEngine.Random;
             m_NextStep = m_StepCycle/2f;
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
-			m_MouseLook.Init(transform , m_Camera.transform);
+            m_AudioSource.volume = soundSlider.value;
+			//m_MouseLook.Init(transform , m_Camera.transform);
         }
 
 
@@ -148,39 +157,25 @@ using Random = UnityEngine.Random;
         }
 void NothingPressed()
 {
-    if (this.animLeft.GetCurrentAnimatorStateInfo(0).IsName("LeftHandsPicked"))
- 	{
-     animLeft.SetBool("LeftPicked",true);
- 	}
-	    if (this.animRight.GetCurrentAnimatorStateInfo(0).IsName("RightHandsPicked"))
- 	    {
-         animRight.SetBool("RightPicked",true);
- 	    }
-	     if (this.animRight.GetCurrentAnimatorStateInfo(0).IsName("RightHandDefault"))
- 	    {
-            animRight.SetBool("DefaultReady",true);
- 	    }
-            if(Input.GetKeyDown(KeyCode.W)==false && Input.GetKeyDown(KeyCode.A)==false && Input.GetKeyDown(KeyCode.S)==false && Input.GetKeyDown(KeyCode.D)==false)
+    
+            /* if(Input.GetKeyDown(KeyCode.W)==false && Input.GetKeyDown(KeyCode.A)==false && Input.GetKeyDown(KeyCode.S)==false && Input.GetKeyDown(KeyCode.D)==false)
+            {*/
+            //Idle State
+            if(runBool.RunPressed==false)
             {
-                animLeft.SetBool("LeftPicked",true);
-                animRight.SetBool("RightPicked",true);
-                animLeft.SetBool("Stay",true);
-                animRight.SetBool("Stay",true);
-                //animLeft.SetBool("LeftHandsRun",false);
-                //animRight.SetBool("RightHandsRun",false);
+               
                 m_WalkSpeed = 0f;
-                
             }
-            if(Input.GetKey(KeyCode.W)==true | Input.GetKey(KeyCode.A)==true | Input.GetKey(KeyCode.S)==true | Input.GetKey(KeyCode.D)==true)
+            //Walk State
+            
+            if(WalkBoolUD.WalkPressed==false || WalkBoolLR.WalkPressed==false )
             {
-                animLeft.SetBool("LeftPicked",false);
-                animRight.SetBool("RightPicked",false);
-                animLeft.SetBool("Stay",false);
-                animRight.SetBool("Stay",false);
+                
                 //animLeft.SetBool("LeftHandsRun",false);
                 //animRight.SetBool("RightHandsRun",false);
                 m_WalkSpeed = 10f;
                 
+            
             }
 
            if(m_IsWalking == true)
@@ -189,24 +184,22 @@ void NothingPressed()
             fovAnim.SetBool("Run",false);
            }
            
-    if(Input.GetKeyDown(KeyCode.LeftShift))
-	{
-        
+   if(runBool.RunPressed==true)
+    {
         m_IsWalking = false;
 		if(m_IsWalking == false)
 		{
             
             fovAnim.SetBool("Default",false);
             fovAnim.SetBool("Run",true);
-            animLeft.SetBool("LeftHandsRun",true);
-            animRight.SetBool("RightHandsRun",true);
+           
             m_RunSpeed = 16f;
 			RunWithPistol.SetBool("RunWithPistol",true);
 			runningToIdle.runInAnim=true;
 		}
 	}
-	if(Input.GetKeyUp(KeyCode.LeftShift))
-		{
+	if(runBool.RunPressed==false)
+            {
             
 			m_IsWalking = true;
 			if(m_IsWalking == true)
@@ -215,8 +208,7 @@ void NothingPressed()
                 fovAnim.SetBool("Run",false);
                 m_RunSpeed = 10f;
 				RunWithPistol.SetBool("RunWithPistol",false);
-                animLeft.SetBool("LeftHandsRun",false);
-                animRight.SetBool("RightHandsRun",false);
+                
 				runningToIdle.runInAnim=false;
 			}
 	
@@ -242,6 +234,7 @@ void NothingPressed()
 
         private void PlayFootStepAudio()
         {
+            m_AudioSource.volume = PlayerPrefs.GetFloat("SoundVolume");
             if (!m_CharacterController.isGrounded)
             {
                 return;
@@ -288,7 +281,7 @@ void NothingPressed()
 
         private void RotateView()
         {
-            m_MouseLook.LookRotation (transform, m_Camera.transform);
+            //m_MouseLook.LookRotation (transform, m_Camera.transform);
            
         }
 

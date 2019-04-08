@@ -6,14 +6,15 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class RunToIdle : MonoBehaviour {
 
-
+public FireButtonScript fireButton;
 	public Animator animator;
 	public bool runInAnim=false;
 	public FirstPersonControllerFix allowRuning;
+	public RunButton runBtn;
 	// Update is called once per frame
-	void Update () 
+	void FixedUpdate () 
 	{
-		if(runInAnim==true && Input.GetMouseButtonDown(0))
+		if(runInAnim==true && fireButton.fireButton==true)
 		{
 			animator.SetBool("ShotWhileRun",true);
 			animator.SetBool("RunWithPistol",false);
@@ -26,11 +27,13 @@ public class RunToIdle : MonoBehaviour {
 
 	void Run()
 	{
+		runBtn.RunPressed=true;
 		runInAnim=true;
 		allowRuning.m_IsWalking=false; 
 	}
 	void NoRun()
 	{
+		runBtn.RunPressed=false;
 		allowRuning.m_IsWalking=true; 
 		runInAnim=false;
 	}
