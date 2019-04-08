@@ -15,6 +15,6 @@ public class ZombieScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {  
-        zombieScore.text = score.ToString();
+        zombieScore.text = "Zombies dead: " + score.ToString();
     }
 }
