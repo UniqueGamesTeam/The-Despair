@@ -1,2 +1,0 @@
-OgreXmlConverter.exe building_4_lod2_mesh.xml building_4_lod2.mesh
-OgreXmlConverter.exe building_4_lod2_skeleton.xml building_4_lod2.skeleton

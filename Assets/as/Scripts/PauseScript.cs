@@ -9,9 +9,11 @@ public bool pause = false;
 public FirstPersonControllerFix movement;
 public ShotAllow shoot;
 public GameObject menu;
+public GameObject settingMenu;
+
 	void Update () 
 	{
-		if(Input.GetKeyDown(KeyCode.Escape))
+		if(Input.GetKeyDown(KeyCode.Escape) & settingMenu.activeInHierarchy==false)
 		{
 			pause=true;
 			movement.enabled=false;
@@ -19,7 +21,9 @@ public GameObject menu;
 			
 			Cursor.visible = true;
 			menu.SetActive(true);
+			
 			Time.timeScale = 0f;
 		}
+		
 	}
 }

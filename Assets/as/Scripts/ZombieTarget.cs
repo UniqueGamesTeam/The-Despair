@@ -17,6 +17,7 @@ public class ZombieTarget : MonoBehaviour {
 	public AudioSource audioOneShot;
 	public AudioSource audioLooped;
 	private bool isAttacking=false;
+	public PauseScript pause;
 	void Start()
 	{
 		zombie = GetComponent<Transform>();
@@ -41,9 +42,12 @@ public class ZombieTarget : MonoBehaviour {
 	}
 	IEnumerator PlayLooped()
 	{
-		yield return new WaitForSeconds(0f);
-		audioLooped.clip = zombieClip[1];
-		audioLooped.Play();	
+		
+			yield return new WaitForSeconds(0f);
+			audioLooped.clip = zombieClip[1];
+			audioLooped.Play();	
+		
+		
 		
 	}
 		void Update()

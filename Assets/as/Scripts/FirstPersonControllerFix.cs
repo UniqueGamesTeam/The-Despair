@@ -77,7 +77,8 @@ using UnityEngine.UI;
 			//m_MouseLook.Init(transform , m_Camera.transform);
         }
 
-
+public bool jumpPressed = false;
+public int jumpCount=1;
         // Update is called once per frame
         private void LateUpdate()
         {
@@ -87,17 +88,28 @@ using UnityEngine.UI;
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)
             {
-                m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
+                
+                if(jumpPressed==true)
+                {
+                    m_Jump = jumpPressed;
+                    jumpPressed=false;
+                   
+                }
+                
             }
 
             if (!m_PreviouslyGrounded && m_CharacterController.isGrounded)
             {
                 PlayLandingSound();
                 m_MoveDir.y = 0f;
+                
                 m_Jumping = false;
+                
             }
             if (!m_CharacterController.isGrounded && !m_Jumping && m_PreviouslyGrounded)
             {
+                jumpPressed=false;
+                
                 m_MoveDir.y = 0f;
             }
 

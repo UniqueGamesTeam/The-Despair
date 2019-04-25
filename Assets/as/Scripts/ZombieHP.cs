@@ -32,8 +32,14 @@ void ZombieDeadSounds()
 }
 	void Update()
 	{
-        
-       // Debug.Log(Zombie.transform.position);
+       if(Time.timeScale==0)
+	   {
+		   audioLooped.mute=true;
+	   }
+	   else
+	   {
+		   audioLooped.mute=false;
+	   }
         if (this.zombieHealth==0 || this.zombieHealth==-30)
 			{
             	//Set Animatior
@@ -45,18 +51,18 @@ void ZombieDeadSounds()
 				ZombieDeadSounds();
 				this.zombieHealth-=1;
 				scoreScript.score+=1;
-				
-        	}
-			
-			
-			
-		//Debug.Log(zombieHealth);
-		//Debug.Log(isDead);
+				StartCoroutine("DeleteZombie");
+        	}	
 	}
 	void ZombieHealth(float weaponDamage)
 	{
 		zombieHealth -= weaponDamage;	
 	}
-
+IEnumerator DeleteZombie()
+{
+	yield return new WaitForSeconds(10f);
+	Destroy(Zombie);	
+	
+}
 
 }

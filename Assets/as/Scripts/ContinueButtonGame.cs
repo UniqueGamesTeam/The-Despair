@@ -19,7 +19,9 @@ public GameObject menu;
 		mouseLook.enabled = true;
 		Cursor.visible = false;
 		shoot.shoot = true;
+	
 		Time.timeScale = 1f;
+		
 	}
 	
 }

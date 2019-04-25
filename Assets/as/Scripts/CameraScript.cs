@@ -13,6 +13,14 @@ public class CameraScript : MonoBehaviour
   public float XSensitivity=2f;
   public float YSensitivity=2f;
   public CameraZone cameraZone;
+  public NoTouchZone noTouchZone;
+  public RunButton runBool;
+  public UpDownMovement fwdBool;
+  public UpDownMovement backBool;
+  public LeftRightMovement rightBool;
+  public LeftRightMovement leftBool;
+
+  
   void Awake() 
   {
    //Initialization our angles of camera
@@ -21,63 +29,154 @@ public class CameraScript : MonoBehaviour
    XSensitivity = PlayerPrefs.GetFloat("MouseSens");
    YSensitivity = PlayerPrefs.GetFloat("MouseSens");
   }
-  void Update() {
-   //Check count touches
-   if(cameraZone.isOnCameraPanel==true)
-   {
-   if(Input.touchCount > 0) 
-   {
-    //Touch began, save position
-    if(Input.GetTouch(0).phase == TouchPhase.Began) 
+  void IsOnCameraPanel()
+  {
+    if(noTouchZone.isOnCameraPanel == false & runBool.RunPressed==false & backBool.WalkPressed==false & fwdBool.WalkPressed==false & leftBool.WalkPressed==false & rightBool.WalkPressed==false & cameraZone.isOnCameraPanel==true)
+{
+    if(Input.GetTouch(0).phase == TouchPhase.Began ) 
     {
      firstpoint = Input.GetTouch(0).position;
      xAngTemp = xAngle;
      yAngTemp = yAngle;
     }
-    //Move finger by screen
-    if(Input.GetTouch(0).phase==TouchPhase.Moved) 
+    
+      if(Input.GetTouch(0).phase==TouchPhase.Moved) 
+      {
+       secondpoint = Input.GetTouch(0).position;
+       //Mainly, about rotate camera. For example, for Screen.width rotate on 180 degree
+       xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
+       yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
+       //Rotate camera
+       this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
+      }
+}
+if(noTouchZone.isOnCameraPanel == true & cameraZone.isOnCameraPanel==true)
+{
+if(Input.GetTouch(1).phase == TouchPhase.Began) 
     {
-     secondpoint = Input.GetTouch(0).position;
-     //Mainly, about rotate camera. For example, for Screen.width rotate on 180 degree
-     xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 15 * XSensitivity / Screen.width;
-     yAngle = yAngTemp - (secondpoint.y - firstpoint.y) *10* YSensitivity / Screen.height;
-     //Rotate camera
-     this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
+     firstpoint = Input.GetTouch(1).position;
+     xAngTemp = xAngle;
+     yAngTemp = yAngle;   
     }
-    if(Input.GetTouch(1).phase == TouchPhase.Began) 
+      if(Input.GetTouch(1).phase==TouchPhase.Moved) 
+      {
+       secondpoint = Input.GetTouch(1).position;
+       //Mainly, about rotate camera. For example, for Screen.width rotate on 180 degree
+       xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
+       yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
+       //Rotate camera
+       this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
+      }
+    }
+    ///////////////////////////////////////
+if(runBool.RunPressed==true & cameraZone.isOnCameraPanel==true)
+{
+if(Input.GetTouch(1).phase == TouchPhase.Began) 
     {
      firstpoint = Input.GetTouch(1).position;
      xAngTemp = xAngle;
      yAngTemp = yAngle;
     }
-    //Move finger by screen
-    if(Input.GetTouch(1).phase==TouchPhase.Moved) 
-    {
-     secondpoint = Input.GetTouch(1).position;
-     //Mainly, about rotate camera. For example, for Screen.width rotate on 180 degree
-     xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 15*XSensitivity / Screen.width;
-     yAngle = yAngTemp - (secondpoint.y - firstpoint.y) *10*YSensitivity / Screen.height;
-     //Rotate camera
-     this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
+      if(Input.GetTouch(1).phase==TouchPhase.Moved) 
+      {
+       secondpoint = Input.GetTouch(1).position;
+       //Mainly, about rotate camera. For example, for Screen.width rotate on 180 degree
+       xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
+       yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
+       //Rotate camera
+       this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
+      }
     }
-    if(Input.GetTouch(2).phase == TouchPhase.Began) 
+    ///////////////////////////////////////
+if(backBool.WalkPressed==true & cameraZone.isOnCameraPanel==true)
+{
+if(Input.GetTouch(1).phase == TouchPhase.Began) 
     {
-     firstpoint = Input.GetTouch(2).position;
+     firstpoint = Input.GetTouch(1).position;
+     xAngTemp = xAngle;
+     yAngTemp = yAngle; 
+    }
+      if(Input.GetTouch(1).phase==TouchPhase.Moved) 
+      {
+       secondpoint = Input.GetTouch(1).position;
+       //Mainly, about rotate camera. For example, for Screen.width rotate on 180 degree
+       xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
+       yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
+       //Rotate camera
+       this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
+      }
+    }
+    //////////////////////////////////////
+if(fwdBool.WalkPressed==true & cameraZone.isOnCameraPanel==true)
+{
+if(Input.GetTouch(1).phase == TouchPhase.Began) 
+    {
+     firstpoint = Input.GetTouch(1).position;
+     xAngTemp = xAngle;
+     yAngTemp = yAngle; 
+    }
+      if(Input.GetTouch(1).phase==TouchPhase.Moved) 
+      {
+       secondpoint = Input.GetTouch(1).position;
+       //Mainly, about rotate camera. For example, for Screen.width rotate on 180 degree
+       xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
+       yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
+       //Rotate camera
+       this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
+      }
+    }
+    ///////////////////////////////////////
+if(leftBool.WalkPressed==true & cameraZone.isOnCameraPanel==true)
+{
+if(Input.GetTouch(1).phase == TouchPhase.Began) 
+    {
+     firstpoint = Input.GetTouch(1).position;
      xAngTemp = xAngle;
      yAngTemp = yAngle;
     }
-    //Move finger by screen
-    if(Input.GetTouch(2).phase==TouchPhase.Moved) 
-    {
-     secondpoint = Input.GetTouch(2).position;
-     //Mainly, about rotate camera. For example, for Screen.width rotate on 180 degree
-     xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 15*XSensitivity / Screen.width;
-     yAngle = yAngTemp - (secondpoint.y - firstpoint.y) *10*YSensitivity / Screen.height;
-     //Rotate camera
-     this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
+      if(Input.GetTouch(1).phase==TouchPhase.Moved) 
+      {
+       secondpoint = Input.GetTouch(1).position;
+       //Mainly, about rotate camera. For example, for Screen.width rotate on 180 degree
+       xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
+       yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
+       //Rotate camera
+       this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
+      }
     }
-   }
-   }
-   }                                              //The key point is use localRotation,not rotation or Quaternion.Rotate.
+    /////////////////////////////////////
+if(rightBool.WalkPressed==true & cameraZone.isOnCameraPanel==true)
+{
+if(Input.GetTouch(1).phase == TouchPhase.Began) 
+    {
+     firstpoint = Input.GetTouch(1).position;
+     xAngTemp = xAngle;
+     yAngTemp = yAngle;
+    }
+      if(Input.GetTouch(1).phase==TouchPhase.Moved) 
+      {
+       secondpoint = Input.GetTouch(1).position;
+       //Mainly, about rotate camera. For example, for Screen.width rotate on 180 degree
+       xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
+       yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
+       //Rotate camera
+       this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
+      }
+    }
+  }
+   
+
+
+
+  
+  void Update() 
+  {
+   IsOnCameraPanel();
+   //NoTouchZone();
+  }
+  
+
+   
+}                                              //The key point is use localRotation,not rotation or Quaternion.Rotate.
      
-}
+

@@ -10,6 +10,7 @@ TagManager:
   - Main_Player
   - ZombieHeadTag
   - ZombieTag
+  - LavaTag
   layers:
   - Default
   - TransparentFX
