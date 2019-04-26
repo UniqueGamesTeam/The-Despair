@@ -2632,6 +2632,11 @@ PrefabInstance:
       propertyPath: armL
       value: 
       objectReference: {fileID: 1812632434}
+    - target: {fileID: 3588398980318382986, guid: f0f3f970cd314da46a1e066f376d8765,
+        type: 3}
+      propertyPath: deadBool
+      value: 
+      objectReference: {fileID: 698640760}
     - target: {fileID: 3483938704706815436, guid: f0f3f970cd314da46a1e066f376d8765,
         type: 3}
       propertyPath: player
@@ -21944,9 +21949,9 @@ MonoBehaviour:
   speed: 0
   m_FootstepSounds:
   - {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
-  - {fileID: 8300000, guid: e9714160ce34f2b4ab63ff8c27bd68e1, type: 3}
   - {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
   - {fileID: 8300000, guid: 5a9383dda6cabc047b7a297602e93eb4, type: 3}
+  - {fileID: 8300000, guid: e9714160ce34f2b4ab63ff8c27bd68e1, type: 3}
   m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
   m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
   soundSlider: {fileID: 1586326792}
@@ -21967,13 +21972,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 3.68
-  m_Radius: 0.5
+  m_Height: 9.01
+  m_Radius: 1.13
   m_SlopeLimit: 40
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: -0.21, z: 0}
+  m_Center: {x: 0, y: 2.34, z: 0}
 --- !u!114 &1118320148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21986,8 +21991,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d96ddfd1127c42b48a395a557edce22f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  XSensitivity: 2
-  YSensitivity: 2
+  XSensitivity: 4
+  YSensitivity: 4
   cameraZone: {fileID: 209799331}
   noTouchZone: {fileID: 1175762020}
   runBool: {fileID: 2146617910}
@@ -42038,13 +42043,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862153446}
-  m_LocalRotation: {x: -0, y: 0.69648385, z: -0, w: 0.71757257}
-  m_LocalPosition: {x: -58.70842, y: -0.24273682, z: 80.86058}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: -73.9, y: -0.24273682, z: 63.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 349177402}
   m_RootOrder: 153
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &1862153446
 GameObject:
   m_ObjectHideFlags: 0
@@ -52534,6 +52539,11 @@ PrefabInstance:
       propertyPath: armL
       value: 
       objectReference: {fileID: 1812632434}
+    - target: {fileID: 3588398980318382986, guid: f0f3f970cd314da46a1e066f376d8765,
+        type: 3}
+      propertyPath: deadBool
+      value: 
+      objectReference: {fileID: 698640760}
     - target: {fileID: 3483938704706815436, guid: f0f3f970cd314da46a1e066f376d8765,
         type: 3}
       propertyPath: player

@@ -91,6 +91,7 @@
      <Compile Include="Assets\as\Scripts\ZombieTarget.cs" />
      <Compile Include="Assets\AttackScript.cs" />
      <Compile Include="Assets\CameraControl.cs" />
+     <Compile Include="Assets\CameraNEW.cs" />
      <Compile Include="Assets\CameraScriptFix.cs" />
      <Compile Include="Assets\CameraZone.cs" />
      <Compile Include="Assets\DeactivateCutScene.cs" />

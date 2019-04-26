@@ -18,7 +18,7 @@ public class AttackScript : MonoBehaviour
     public GameObject armL;
     
     private AttackScript zombieObj;
-    
+    public LavaDamageScript deadBool;
     // Start is called before the first frame update
     void Start()
     {
@@ -55,6 +55,7 @@ public class AttackScript : MonoBehaviour
 
             gameOverBoolScript.GameOver=true;
             this.zombieObj.enabled=false;
+            deadBool.dead=true;
             Debug.Log("DEAD!");
         }
         

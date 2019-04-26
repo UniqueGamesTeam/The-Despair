@@ -47,6 +47,7 @@ public class CameraScript : MonoBehaviour
        xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
        yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
        //Rotate camera
+       yAngle = Mathf.Clamp(yAngle, -50f, 50f);
        this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
       }
 }
@@ -65,6 +66,7 @@ if(Input.GetTouch(1).phase == TouchPhase.Began)
        xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
        yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
        //Rotate camera
+       yAngle = Mathf.Clamp(yAngle, -50f, 50f);
        this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
       }
     }
@@ -84,6 +86,7 @@ if(Input.GetTouch(1).phase == TouchPhase.Began)
        xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
        yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
        //Rotate camera
+       yAngle = Mathf.Clamp(yAngle, -50f, 50f);
        this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
       }
     }
@@ -103,6 +106,7 @@ if(Input.GetTouch(1).phase == TouchPhase.Began)
        xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
        yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
        //Rotate camera
+       yAngle = Mathf.Clamp(yAngle, -50f, 50f);
        this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
       }
     }
@@ -122,6 +126,7 @@ if(Input.GetTouch(1).phase == TouchPhase.Began)
        xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
        yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
        //Rotate camera
+       yAngle = Mathf.Clamp(yAngle, -50f, 50f);
        this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
       }
     }
@@ -141,6 +146,7 @@ if(Input.GetTouch(1).phase == TouchPhase.Began)
        xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
        yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
        //Rotate camera
+       yAngle = Mathf.Clamp(yAngle, -50f, 50f);
        this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
       }
     }
@@ -160,6 +166,7 @@ if(Input.GetTouch(1).phase == TouchPhase.Began)
        xAngle = xAngTemp + (secondpoint.x - firstpoint.x) * 30 * XSensitivity / Screen.width;
        yAngle = yAngTemp - (secondpoint.y - firstpoint.y) * 15 * YSensitivity / Screen.height;
        //Rotate camera
+       yAngle = Mathf.Clamp(yAngle, -50f, 50f);
        this.transform.rotation = Quaternion.Euler(yAngle, xAngle, 0.0f);
       }
     }
